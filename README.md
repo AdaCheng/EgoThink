@@ -2,6 +2,8 @@
 
 [**🌐 Homepage**](https://adacheng.github.io/EgoThink/) | [**🤗 Dataset**](https://huggingface.co/datasets/EgoThink/EgoThink) | [**🤗 Paper**](https://huggingface.co/papers/2311.15596) | [**📖 arXiv**](https://arxiv.org/abs/2311.15596) | [**GitHub**](https://github.com/AdaCheng/EgoThink)
 
+## TODO
+- We will release the code soon.
 
 ## Contact
 - Sijie Cheng: csj23@mails.tsinghua.edu.cn
