@@ -246,7 +246,7 @@
       <!-- <div class="box m-5"> --> 
         <div class="content has-text-centered">
           <img src="static/images/Intro.jpg" alt="geometric reasoning" width="50%"/>
-          <p> The main categories of our EgoThink benchmark to comprehensively assess the capability of thinking from a first-person perspective. </p>
+          <p> Figure 1: The main categories of our EgoThink benchmark to comprehensively assess the capability of thinking from a first-person perspective. </p>
         </div>
       <!-- </div> -->
     <!-- </div> -->
@@ -302,23 +302,19 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
-          <p>
-            We specifically design six categories with twelve fine-grained dimensions from the first-person perspective for quantitative evaluation.
-          </p>
           <img src="static/images/benchmark.jpg" alt="algebraic reasoning" class="center">
           <br>
           <p>
+            We specifically design six categories with twelve fine-grained dimensions from the first-person perspective for quantitative evaluation.
+          </p>
+          <p>
             <ul>
               <li>
-                Object: What is around me?
-                <ul>
-                  <li>Existence</li>
-                  <li>Attribute</li>
-                  <li>Affordance</li>
-                </ul>
+                <b>Object: What is around me?</b> Recognizing objects in the real world is a preliminary ability of the human visual system. Images from a first-person or egocentric perspective pay more attention to the objects surrounding the subject or in hands. Moreover, we further divide the object category into three fine-grained dimensions: (1) <i>Existence</i>, predicting whether there is an object as described in the images; (2) <i>Attribute</i>, detecting properties or characteristics (e.g., color) of an object; 
+                (3) <i>Affordance</i>, predicting potential actions that a human can apply to an object.
               </li>
               <li>
-                Activity: What am I doing?
+                <b>Activity: What am I doing?</b> Activity recognition is to automatically recognize specific human activities in video frames or still images. From the egocentric perspective, we mainly focus on actions or activities based on object-hand interaction.
               </li>
             </ul>
           </p>
@@ -338,19 +334,12 @@
         <h2 class="title is-3">Comparisons with Existing Benchmarks</h2>
         <div class="content has-text-justified">
           <p>
-            To further distinguish the difference between <i>dataset</i> and other existing ones, we elaborate the benchmark details in Figure. 
-            From the <i>breadth</i> perspective, the prior benchmarks are heavily focused on daily knowledge and common sense. 
-            The covered image format is also limited. Our benchmark aims to cover college-level knowledge with 30 image formats including diagrams, 
-            tables, charts, chemical structures, photos, paintings, geometric shapes, music sheets, medical images, etc. 
-            In the <i>depth</i> aspect, the previous benchmarks normally require commonsense knowledge or simple physical or temporal reasoning. 
-            In contrast, our benchmark requires deliberate reasoning with college-level subject knowledge.
+            The ability to think from a first-person perspective is not adequately addressed by current evaluation benchmarks for VLMs. On one hand, most of these benchmarks (six out of nine, as listed in Table 1) focus solely on the third-person perspective. On the other hand, those benchmarks that do consider the first-person perspective only encompass a limited range of capabilities. For instance, EgoTaskQA examines spatial, temporal, and causal aspects, whereas EgoVQA is limited to object, action, and person aspects. Therefore, there is a clear need to develop a comprehensive benchmark to evaluate the first-person capabilities of VLMs more effectively.
         </p>
         <div class="content has-text-centered">
           <img src="static/images/comparison.png" alt="algebraic reasoning" class="center">
-          <p> Sampled MMMU examples from each discipline. The questions and images need expert-level knowledge to understand and reason.</p>
+          <p> Table 1: Comparison of recent comprehensive evaluation benchmarks of VLMs and our proposed benchmark EgoThink. Third and first indicate third-person and first-person perspectives. Datasets/Handcraft/LLMs denote existing datasets, manual annotation, and automatic generation by LLMs. PS/MC/OE indicate pairwise scoring, multi-choice, and open-ended question-answering, respectively.</p>
         </div>
-          
-          
         </div>
     </div>
     </div>
