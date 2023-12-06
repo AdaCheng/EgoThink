@@ -246,8 +246,7 @@
       <!-- <div class="box m-5"> --> 
         <div class="content has-text-centered">
           <img src="static/images/Intro.jpg" alt="geometric reasoning" width="50%"/>
-          <p> Overview of the MMMU dataset. MMMU presents four challenges: 1) <b>comprehensiveness</b>: 11.5K college-level problems across six broad disciplines and 30 college subjects; 
-            2) highly <b>heterogeneous</b> image types; 3) <b>interleaved</b> text and images; 4) <b>expert-level</b> perception and reasoning rooted in deep subject knowledge.</p>
+          <p> The main categories of our EgoThink benchmark to comprehensively assess the capability of thinking from a first-person perspective. </p>
         </div>
       <!-- </div> -->
     <!-- </div> -->
@@ -304,12 +303,24 @@
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
           <p>
-            We introduce the Massive Multi-discipline Multimodal Understanding and Reasoning (MMMU) benchmark, a novel benchmark meticulously curated to assess the expert-level multimodal understanding capability of foundation models across a broad scope of tasks. Covering subjects across disciplines, including Art, Business, Health & Medicine, Science, Humanities & Social Science, and Tech & Engineering, and over subfields. The detailed subject coverage and statistics are detailed in the figure. The questions in our benchmark were manually collected by a team of college students (including coauthors) from various disciplines and subjects, drawing from online sources, textbooks, and lecture materials.
+            We specifically design six categories with twelve fine-grained dimensions from the first-person perspective for quantitative evaluation.
           </p>
           <img src="static/images/benchmark.jpg" alt="algebraic reasoning" class="center">
           <br>
           <p>
-             MMMU is designed to measure three essential skills in LMMs: perception, knowledge, and reasoning. Our aim is to evaluate how well these models can not only perceive and understand information across different modalities but also apply reasoning with subject-specific knowledge to derive the solution.
+            <ul>
+              <li>
+                Object: What is around me?
+                <ul>
+                  <li>Existence</li>
+                  <li>Attribute</li>
+                  <li>Affordance</li>
+                </ul>
+              </li>
+              <li>
+                Activity: What am I doing?
+              </li>
+            </ul>
           </p>
           <p>
             Our MMMU benchmark introduces key challenges to multimodal foundation models, as detailed in a figure. Among these, we particularly highlight the challenge stemming from the requirement for both expert-level visual perceptual abilities and deliberate reasoning with subject-specific knowledge. This challenge is vividly illustrated through our tasks, which not only demand the processing of various heterogeneous image types but also necessitate a model's adeptness in using domain-specific knowledge to deeply understand both the text and images and to reason. This goes significantly beyond basic visual perception, calling for an advanced approach that integrates advanced multimodal analysis with domain-specific knowledge.
