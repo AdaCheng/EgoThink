@@ -358,11 +358,11 @@
         <h2 class="title is-3">Statistics</h2>
         <!-- <div id="results-carousel" class="carousel results-carousel"> -->
         <div class="content has-text-centered">
-          <img src="static/images/statistics.png" alt="algebraic reasoning" width="80%"/>
+          <img src="static/images/statistics.png" alt="algebraic reasoning" class="center"/>
           <p><b><i>Table 2:</i></b> Statistics of six categories with twelve dimensions in our EgoThink benchmark, where spatial* indicates spatial relationship and situated* indicates situated reasoning.</p>
         </div>
         <div class="content has-text-centered">
-          <img src="static/images/distribution.jpg" alt="arithmetic reasoning" width="40%"/>
+          <img src="static/images/distribution.jpg" alt="arithmetic reasoning" class="center"/>
           <p><b><i>Figure 3:</i></b> This chart illustrates the distribution of various scene categories within the EgoThink dataset. The "others" category encompasses 13 different scene types, each representing less than one percent of total scenes.</p>
         </div>
         <!-- <div class="box m-5">
@@ -400,13 +400,9 @@
   <!-- <div class="column is-full-width has-text-centered"> -->
   <div class="column is-four-fifths">
     <h2 class="title is-3">Vision-Language Models</h2>
-    <div class="content has-text-justified">
-      <p>
-        We collect the most popular eighteen types of representative VLMs to assess.
-    </p>
     <div class="content has-text-centered">
       <img src="static/images/vlms.png" alt="algebraic reasoning" class="center">
-      <p><b><i>Table 1:</i></b> Statistics of compared API-based and open-source VLMs, where TTP and ToP indicate Total Trainable Parameters and Total Parameters, respectively. Moreover, EgoData and Video indicate that there are egocentric visual data and video data for training, respectively.</p>
+      <p><b><i>Table 3:</i></b> Statistics of compared API-based and open-source VLMs, where TTP and ToP indicate Total Trainable Parameters and Total Parameters, respectively. Moreover, EgoData and Video indicate that there are egocentric visual data and video data for training, respectively.</p>
     </div>
     </div>
 </div>
@@ -418,12 +414,7 @@
         <div class="content">
           <div class="content has-text-justified">
             <p>
-              We evaluate various models including LLMs and LMMs.
-              In each type, we consider both closed- and open-source models.
-              Our evaluation is conducted under a zero-shot setting to assess the capability of models to generate accurate answers without fine-tuning or few-shot demonstrations on our benchmark.
-              For all models, we use the default prompt provided by each model for multi-choice or open QA, if available.
-              If models do not provide prompts for task types in MMMU, we conduct prompt engineering on the validation set and use the most effective prompt for the later zero-shot experiment.
-
+              We collect the most popular eighteen types of representative VLMs to assess as shown in Table 3. Due to the possible effects of model parameters, we divide models into ~7B and ~13B for a fair comparison. We conduct zero-shot setups for all VLMs across our EgoThink benchmark. Considering evaluating open-ended model generations is not a trivial problem, we propose to use GPT-4 as the automatic evaluator to better measure generated answers.
             </p>
           </div>
 
