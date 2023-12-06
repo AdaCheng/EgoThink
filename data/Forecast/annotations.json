@@ -1,0 +1,802 @@
+[
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "1.jpg"
+        ],
+        "question": "What will I do?",
+        "answer": "Play baseball."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "2.jpg"
+        ],
+        "question": "What will I do?",
+        "answer": "Cut the grass."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "3.jpg"
+        ],
+        "question": "According to the thing holding in my hands, which direction will the car go into, left or right?",
+        "answer": "Left."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "4.jpg"
+        ],
+        "question": "Which direction will I walk to, upstairs or downstairs?",
+        "answer": "Downstairs."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "5.jpg"
+        ],
+        "question": "What will I do?",
+        "answer": "Open the cabinet."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "6.jpg"
+        ],
+        "question": "What will I do?",
+        "answer": "Take out the mushrooms."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "7.jpg"
+        ],
+        "question": "What will I do?",
+        "answer": "Cook."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "8.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Open the lid of the bucket."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "9.jpg"
+        ],
+        "question": "Am I going upstairs or downstairs?",
+        "answer": "Upstairs."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "10.jpg"
+        ],
+        "question": "What will I put in the washing machine?",
+        "answer": "Clothes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "11.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Roll the dough."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "12.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Take out the cabbage."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "13.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Open the fridge."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "14.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Mop the floor."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "15.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Iron the shirt"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "16.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Cut plants."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "17.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Open the car door."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "18.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Haircut."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "19.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Paint the board."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "20.jpg"
+        ],
+        "question": "What will I do with the bag?",
+        "answer": "Fasten it."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "21.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Measure the board."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "22.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Wipe the cat."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "23.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Paint the wall."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "24.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Add water."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "25.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Serve rice."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "26.jpg"
+        ],
+        "question": "What will I do next?",
+        "answer": "Clean the desk."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "27.jpg"
+        ],
+        "question": "What will I use next? The white raddish or the dough?",
+        "answer": "The white raddish."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "28.jpg"
+        ],
+        "question": "What will I do to the tire?",
+        "answer": "Inflate the tire."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "29.jpg"
+        ],
+        "question": "Will the thing in my hands be cut?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "30.jpg"
+        ],
+        "question": "How will the pepper in my hands be cut?",
+        "answer": "Into two pieces."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "31.jpg"
+        ],
+        "question": "What color will the thing I am painting be?",
+        "answer": "Blue."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "32.jpg"
+        ],
+        "question": "Which state will the thing that my right hand is touching be in? On or off?",
+        "answer": "On"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "33.jpg"
+        ],
+        "question": "According to the thing I am controlling, will the water be boiled?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "34.jpg"
+        ],
+        "question": "What will the device that I'm controlling turn the milk into?",
+        "answer": "Milk foam."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "35.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Cut lemon from the branch."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "36.jpg"
+        ],
+        "question": "Where will the thing holding in my left hand be hammered?",
+        "answer": "Into the plank."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "37.jpg"
+        ],
+        "question": "Will the meat held by the chopsticks in my left hand be placed in the pot or in a bowl?",
+        "answer": "In the pot."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "38.jpg"
+        ],
+        "question": "Am I going to add the thing holding in my left hand to vegetables?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "39.jpg"
+        ],
+        "question": "Will the thing holding in my left hand be lifted?",
+        "answer": "No."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "40.jpg"
+        ],
+        "question": "What will the thing holding in my left hand be full of?",
+        "answer": "Water."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "41.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Pour water."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "42.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Peel the onion."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "43.jpg"
+        ],
+        "question": "What am I going to do? Pour the noodle to the plate or to the pot?",
+        "answer": "Pour the noodle to the plate."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "44.jpg"
+        ],
+        "question": "Will am I going to do?",
+        "answer": "Wash clothes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "45.jpg"
+        ],
+        "question": "What am I going to pour into the small bowl? Soup or water?",
+        "answer": "Soup."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "46.jpg"
+        ],
+        "question": "Will the thing holding in my left hand be filled with water then?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "47.jpg"
+        ],
+        "question": "Where am I going to put the fruit? On the ground or in the basket?",
+        "answer": "In the basket."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "48.jpg"
+        ],
+        "question": "Will this piece of orange holding in my hands be eaten?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "49.jpg"
+        ],
+        "question": "What am I going to do with the box? Open it or close it?",
+        "answer": "Open it."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "50.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Plant the tree."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "51.jpg"
+        ],
+        "question": "Where will the thing holding in my hands more likely to be? In the fridge or on the table?",
+        "answer": "In the fridge."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "52.jpg"
+        ],
+        "question": "Where will the thing holding in my right hand be in then?",
+        "answer": "Coffee machine."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "53.jpg"
+        ],
+        "question": "Will the meat be mixed with the vegetables holding in my left hand?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "54.jpg"
+        ],
+        "question": "What will I do?",
+        "answer": "Clean the floor."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "55.jpg"
+        ],
+        "question": "Am I going to put away these clothes?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "56.jpg"
+        ],
+        "question": "Where will the thing in the bag I am holding be?",
+        "answer": "In the washing machine."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "57.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Stir milk."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "58.jpg"
+        ],
+        "question": "Will the thing holding in my hands be in the box or on the desk?",
+        "answer": "On the desk."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "59.jpg"
+        ],
+        "question": "What ma I going to do?",
+        "answer": "Pour the cement into the mixer."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "60.jpg"
+        ],
+        "question": "Am I going to heat the food in the bowl?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "61.jpg"
+        ],
+        "question": "What color am I going to paint on the plank?",
+        "answer": "White."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "62.jpg"
+        ],
+        "question": "How many pieces am I going to cut the wooden board into?",
+        "answer": "Two."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "63.jpg"
+        ],
+        "question": "Am I going to pour drink to the pot?",
+        "answer": "No."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "64.jpg"
+        ],
+        "question": "What color am I going to paint on the toy?",
+        "answer": "Golden."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "65.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Prune the leaves."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "66.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Open the drawer."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "67.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Remove the handle of the eggplant."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "68.jpg"
+        ],
+        "question": "Will the grass on the ground in front of me be removed?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "69.jpg"
+        ],
+        "question": "What will the water in the container that I am holding turn into?",
+        "answer": "Ice."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "70.jpg"
+        ],
+        "question": "Will the pants that I am ironing become hot or cold?",
+        "answer": "Hot."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "71.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Pour the ice to the cup."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "72.jpg"
+        ],
+        "question": "Will noodles in the pot closer to me become softer or harder?",
+        "answer": "Softer."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "73.jpg"
+        ],
+        "question": "Will the vegetables on the chopping board in my hand be put into the pot?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "74.jpg"
+        ],
+        "question": "What am I going to do? Empty the pot or fill the pot?",
+        "answer": "Empty the pot."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "75.jpg"
+        ],
+        "question": "Will the braided fabric in my hand become larger or smaller?",
+        "answer": "larger."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "76.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Put on my shoes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "77.jpg"
+        ],
+        "question": "Will the food on my fork be put into the pot or plate?",
+        "answer": "Plate."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "78.jpg"
+        ],
+        "question": "Will the brick in my hand be put on the ground?",
+        "answer": "No."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "79.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Cut the paper."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "80.jpg"
+        ],
+        "question": "Will the water in the cup I am holding increase or decrease?",
+        "answer": "Increase."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "81.jpg"
+        ],
+        "question": "Am I going to water the plants on my right?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "82.jpg"
+        ],
+        "question": "What am I going to do to the thing touching by my left hand?",
+        "answer": "Clean it."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "83.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Wash the brush."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "84.jpg"
+        ],
+        "question": "Will the painting that touching by my right hand become drier or wetter?",
+        "answer": "Drier."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "85.jpg"
+        ],
+        "question": "Am I going to add more green to the painting?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "86.jpg"
+        ],
+        "question": "What am I planning to clean?",
+        "answer": "The car."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "87.jpg"
+        ],
+        "question": "Will I shape the dough into cubes?",
+        "answer": "No."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "88.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Paint on the paper."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "89.jpg"
+        ],
+        "question": "What am I going to do with the vegetables holding in my left hand?",
+        "answer": "Cut it."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "90.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Pick flowers."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "91.jpg"
+        ],
+        "question": "Will I use the hammer to strike the object holding in my left hand?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "92.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Lift the brown tool."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "93.jpg"
+        ],
+        "question": "What am I going to use? Laptop or iPad",
+        "answer": "IPad."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "94.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Connect the wire to the lamp."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "95.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Mow grass."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "96.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Wash the car."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "97.jpg"
+        ],
+        "question": "What am I going to do?",
+        "answer": "Open the tap."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "98.jpg"
+        ],
+        "question": "Am I going to clean the board?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "99.jpg"
+        ],
+        "question": "Am I going to put the thing in my left hand to the water or to the bucket?",
+        "answer": "To the bucket."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "100.jpg"
+        ],
+        "question": "Am I going to cut the branches?",
+        "answer": "Yes."
+    }
+]
