@@ -1,9 +1,8 @@
-
 from lmdeploy import TurbomindEngineConfig, pipeline, GenerationConfig
 from lmdeploy.vl import load_image
 from transformers.dynamic_module_utils import get_class_from_dynamic_module
 
-class VideoInference:
+class TestiXC2d5:
     def __init__(self, model_path: str, video_path: str):
         """
         初始化推理类，设置模型和视频路径，初始化 NVIDIA SMI。
@@ -49,11 +48,11 @@ class VideoInference:
 
 # 使用示例
 if __name__ == "__main__":
-    model_path = '/disks/disk1/share/models/internlm-xcomposer2d5-7b-4bit'
-    video_path = '/disks/disk5/private/yyyou/InternLM-XComposer-main/examples/liuxiang.mp4'
+    # model_path = '/disks/disk1/share/models/internlm-xcomposer2d5-7b-4bit'
+    video_path = '/data/home/adaaaacheng/csj/videgothink/goalstep_val_clean/151.mp4'
     # 初始化推理类
     inference = VideoInference(model_path, video_path)
     # 执行推理
-    query = 'Here are some frames of a video. Describe this video in detail'
+    query = 'Is there a cupboard in the video?'
     result = inference.run_inference(query)
     print(result)
