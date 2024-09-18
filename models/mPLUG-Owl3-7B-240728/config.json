@@ -1,0 +1,47 @@
+{
+  "architectures": [
+    "mPLUGOwl3Model"
+  ],
+  "auto_map": {
+    "AutoConfig": "configuration_mplugowl3.mPLUGOwl3Config",
+    "AutoModel": "modeling_mplugowl3.mPLUGOwl3Model",
+    "AutoModelForCausalLM": "modeling_mplugowl3.mPLUGOwl3Model"
+  },
+  "attention_dropout": 0.0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151645,
+  "hidden_act": "silu",
+  "hidden_size": 3584,
+  "initializer_range": 0.02,
+  "intermediate_size": 18944,
+  "max_position_embeddings": 32768,
+  "max_window_layers": 28,
+  "model_type": "mplugowl3",
+  "num_attention_heads": 28,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 4,
+  "rms_norm_eps": 1e-06,
+  "rope_theta": 1000000.0,
+  "sliding_window": 131072,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.41.2",
+  "use_cache": true,
+  "use_sliding_window": false,
+  "vocab_size": 151851,
+  "hyper_layers": [
+    1,
+    9,
+    17,
+    25
+  ],
+  "vision_config": {
+    "hidden_size": 1152,
+    "image_size": 384,
+    "intermediate_size": 4304,
+    "model_type": "siglip_vision_model",
+    "num_attention_heads": 16,
+    "num_hidden_layers": 27,
+    "patch_size": 14
+  }
+}
