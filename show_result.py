@@ -23,7 +23,8 @@ model_order = [
     'llava-1.5-7b',
     'llava-1.5-13b',
     'llava-13b-llama2',
-    'sharegpt4v'
+    'sharegpt4v',
+    'gpt-4o-frames'
 ]
 
 def display_result_single(args):
