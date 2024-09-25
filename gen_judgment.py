@@ -188,8 +188,6 @@ def make_judge_single(judge_model, judge_prompts):
     # judges["default"] = Judge(judge_model, judge_prompts["single-v1"])
     judges["vqa"] = Judge(judge_model, judge_prompts["single-math-v2"], ref_based=True)
     judges["rm_feedback"] = Judge(judge_model, judge_prompts["single-rm-feedback-v1"], ref_based=True)
-    judges["hp_h2m"] = Judge(judge_model, judge_prompts["hp-h2m-v1"], ref_based=True)
-    judges["hp_m2l"] = Judge(judge_model, judge_prompts["hp-m2l-v1"], ref_based=True)
     return judges
 
 def get_args():
@@ -316,26 +314,6 @@ if __name__ == "__main__":
     #     questions, models, model_answers, judges["default"], baseline_model
     # )
     if args.bench_name in ["rm_feedback"]:
-        matches += make_match_func(
-            questions,
-            models,
-            model_answers,
-            judges[args.bench_name],
-            baseline_model,
-            ref_answers,
-            ref_model_name=args.ref_model
-        )
-    elif args.bench_name in ["hp_h2m"]:
-        matches += make_match_func(
-            questions,
-            models,
-            model_answers,
-            judges[args.bench_name],
-            baseline_model,
-            ref_answers,
-            ref_model_name=args.ref_model
-        )
-    elif args.bench_name in ["hp_m2l"]:
         matches += make_match_func(
             questions,
             models,
