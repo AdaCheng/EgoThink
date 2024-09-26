@@ -13,6 +13,7 @@ import requests
 from PIL import Image
 from io import BytesIO
 import re
+import cv2
 from llava.constants import (
     IMAGE_TOKEN_INDEX,
     DEFAULT_IMAGE_TOKEN,
@@ -32,6 +33,13 @@ def image_parser(image_file):
     out = image_file.split(',')
     return out
 
+def get_image_path_from_video(video_path):
+    lis = video_path.split("/")
+    # image_folder = '/'.join(lis[:-2] + [lis[-1] + '_img', lis[-1].split('.')[0]])
+    image_folder = video_path.replace("/video/", "/images/").replace(".mp4", "/")
+    print(image_folder)
+    images = os.listdir(image_folder)
+    return os.path.join(image_folder, images[-1])
 
 def load_image(image_file):
     if image_file.startswith("http") or image_file.startswith("https"):
@@ -114,12 +122,12 @@ class TestLLaVA2:
             # print(model_name, model_path)
             self.tokenizer, self.model, self.image_processor, self.context_len = load_pretrained_model(model_path, None, model_name, device_map="auto")
         elif size == '1.5-7b':
-            model_path = ""
+            model_path = "/disks/disk1/share/models/llava-v1.5-7b"
             model_name = get_model_name(model_path)
             model_base = None
             self.tokenizer, self.model, self.image_processor, self.context_len = load_pretrained_model(model_path, model_base, model_name, device_map="auto")
         elif size == '1.5-13b':
-            model_path = ""
+            model_path = "/disks/disk1/share/models/llava-v1.5-13b"
             model_name = get_model_name(model_path)
             model_base = None
             self.tokenizer, self.model, self.image_processor, self.context_len = load_pretrained_model(model_path, model_base, model_name, device_map="auto")
@@ -148,7 +156,16 @@ class TestLLaVA2:
         # self.model.to(device=self.device, dtype=self.dtype)
     
     @torch.no_grad()
-    def generate(self, image, question, max_new_tokens=30, planning=False):
+    def generate(self, image, question, max_new_tokens=30, planning=False, tg=False, rm_critique=False, rm_feedback=False, hp_h2m=False):
+        if rm_critique:
+            question = "Imagine you are the camera wearer (I) who recorded the video. Please directly answer yes or no to determin whether the task is completed or not. Question: {} Short answer:".format(question)
+        elif rm_feedback:
+            question = "Imagine you are the camera wearer (I) who recorded the video. The video contains an uncompleted task. Please identify the essential completion signals in my observations that indicate the task is not completed by me. Please directly generate the rationale as short as possible. \nQuestion: {} \nShort Answer:".format(question)
+        elif hp_h2m:
+            question = "Imagine you are the camera wearer (I) who recorded the video. Given the high-level goal (e.g., 'making dumpling') and the current progress video, you need to predict the next mid-level step (e.g., fold dumplings on a cutting board) to achieve the goal. Please directly generate the next one step as short as possible. Question: {} Short answer:".format(question)
+        else:
+            question = "Imagine you are the camera wearer (I) who recorded the video. Please directly answer the question as short as possible. Question: {} Short answer:".format(question)
+
         image_token_se = DEFAULT_IM_START_TOKEN + DEFAULT_IMAGE_TOKEN + DEFAULT_IM_END_TOKEN
         qs = question
         if IMAGE_PLACEHOLDER in qs:
@@ -166,6 +183,10 @@ class TestLLaVA2:
         conv.append_message(conv.roles[1], None)
         prompt = conv.get_prompt()
 
+        if not image.endswith("jpg"):
+            image = get_image_path_from_video(image)
+
+        # if image[0].endswith("jpg"):
         image_files = image_parser(image)
         images = load_images(image_files)
         image_sizes = [x.size for x in images]
@@ -174,6 +195,20 @@ class TestLLaVA2:
             self.image_processor,
             self.model.config
         ).to(self.model.device, dtype=torch.float16)
+        # else:
+        #     cap = cv2.VideoCapture(image)
+        #     fps = cap.get(cv2.CAP_PROP_FPS)
+        #     frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+        #     cap.set(cv2.CAP_PROP_POS_FRAMES, frame_count - 1)
+        #     ret, frame = cap.read()
+        #     cap.release()
+        #     images = [Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))]
+        #     image_sizes = [images[0].size]
+        #     images_tensor = process_images(
+        #         images,
+        #         self.image_processor,
+        #         self.model.config
+        #     ).to(self.model.device, dtype=torch.float16)
 
         input_ids = (
             tokenizer_image_token(prompt, self.tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt")
@@ -199,9 +234,12 @@ class TestLLaVA2:
         outputs = self.tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
         return outputs
 
+
+    
+
 if __name__ == "__main__":
-    model = TestLLaVA2()
-    image = "data/Activity/images/3_153.jpg"
+    model = TestLLaVA2("1.5-7b")
+    image = "data/vqa/video/34.mp4"
     qs = "What am I doing?"
     output = model.generate(image, qs)
     print(output)
