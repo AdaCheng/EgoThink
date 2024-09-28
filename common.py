@@ -10,9 +10,11 @@ import os
 import re
 import time
 from typing import Optional
+import os
 
 from openai import AzureOpenAI
 import openai
+from openai import AzureOpenAI
 import anthropic
 
 from fastchat.model.model_adapter import get_conversation_template
@@ -190,6 +192,57 @@ def run_judge_single(question, answer, judge, ref_answer, multi_turn=False):
     return rating, user_prompt, judgment
 
 
+def play_a_match_temporal(match: MatchSingle, output_file: str):
+    def extract_two_numbers(s):
+        numbers = re.findall(r'-?\d+\.?\d*', s)
+        return numbers[:2]
+
+    question, model, answer, judge, ref_answer, multi_turn = (
+        match.question,
+        match.model,
+        match.answer,
+        match.judge,
+        match.ref_answer,
+        match.multi_turn,
+    ) 
+
+    answer = answer["choices"][0]["turns"][0]
+    ref_answer = ref_answer["choices"][0]["turns"][0]
+    answer_l, answer_r = extract_two_numbers(answer)
+    answer_l, answer_r = float(answer_l), float(answer_r)
+    ref_answer_l, ref_answer_r = extract_two_numbers(ref_answer)
+    ref_answer_l, ref_answer_r = float(ref_answer_l), float(ref_answer_r)
+    # print(f"answer: {answer_l}, {answer_r}, ref_answer: {ref_answer_l}, {ref_answer_r}")
+    try:
+        IoU = (min(answer_r, ref_answer_r) - max(answer_l, ref_answer_l)) / (max(answer_r, ref_answer_r) - min(answer_l, ref_answer_l))
+    except ZeroDivisionError:
+        IoU = 0
+    IoU = max(0, IoU)
+
+    result = {
+        "question_id": question["question_id"],
+        "model": model,
+        "judge": (judge.model_name, judge.prompt_template["name"]),
+        "user_prompt": "",
+        "judgment": "",
+        "score": IoU,
+        "tstamp": time.time(),
+    }
+
+    print(
+        f"question: {question['question_id']}, model: {model}, "
+        f"score: {IoU}, "
+        f"judge: {(judge.model_name, judge.prompt_template['name'])}"
+    )
+
+    if output_file:
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        with open(output_file, "a") as fout:
+            fout.write(json.dumps(result) + "\n")
+
+    return result
+    
+
 def play_a_match_single(match: MatchPair, output_file: str):
     question, model, answer, judge, ref_answer, multi_turn = (
         match.question,
@@ -269,7 +322,7 @@ def run_judge_pair(question, answer_a, answer_b, judge, ref_answer, multi_turn=F
     conv.append_message(conv.roles[0], user_prompt)
     conv.append_message(conv.roles[1], None)
 
-    if model in ["gpt-3.5-turbo", "gpt-4"]:
+    if model in ["gpt-3.5-turbo", "gpt-4", "gpt-4o"]:
         conv.set_system_message(system_prompt)
         judgment = chat_compeletion_openai(model, conv, temperature=0, max_tokens=2048)
     elif model in ["claude-v1", "claude-instant-v1"]:
@@ -428,16 +481,17 @@ def chat_compeletion_openai(model, conv, temperature, max_tokens):
             response = client.chat.completions.create(
                 model=model,
                 messages=messages,
-                n=1,
+                stream=False,
                 temperature=temperature,
                 max_tokens=max_tokens,
             )
             output = response.choices[0].message.content
             break
-        except openai.error.OpenAIError as e:
-            print(type(e), e)
-            time.sleep(API_RETRY_SLEEP)
-
+        # except openai.error.OpenAIError as e:
+        #     print(type(e), e)
+        # replace the following part 
+        except openai.AuthenticationError:
+            print("Authentication error: Invalid API key or insufficient permissions.")
     return output
 
 
