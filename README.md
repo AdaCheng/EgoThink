@@ -8,7 +8,7 @@
 
 ### Add new model
 
-1. create `Test_{new_model}.py` in `/models`.
+1. create `test_{new_model}.py` in `/models`.
 2. Add the new model in `get_model()` in `/models/__init__.py`.
 ```sh
 # BLIP2-7B

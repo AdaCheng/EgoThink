@@ -12,6 +12,7 @@ import time
 from typing import Optional
 import os
 
+from openai import AzureOpenAI
 import openai
 from openai import AzureOpenAI
 import anthropic
@@ -161,7 +162,7 @@ def run_judge_single(question, answer, judge, ref_answer, multi_turn=False):
     conv.append_message(conv.roles[1], None)
 
     def run_model():
-        if model in ["gpt-3.5-turbo", "gpt-4","gpt-4o"]:
+        if model in ["gpt-3.5-turbo", "gpt-4", "gpt-4o", "gpt-4o-mini"]:
             judgment = chat_compeletion_openai(model, conv, temperature=0, max_tokens=2048)
         elif model in ["claude-v1", "claude-instant-v1", 'claude-v2', 'claude-2']:
             judgment = chat_compeletion_anthropic(
@@ -463,24 +464,20 @@ def chat_compeletion_openai(model, conv, temperature, max_tokens):
     output = API_ERROR_OUTPUT
     for _ in range(API_MAX_RETRY):
         try:
-            ############################
-            #  this part added at 9/23
-            api_key = os.environ["OPENAI_API_KEY"]
-            api_base = os.environ["OPENAI_API_BASE"] 
-            api_version = os.environ["OPENAI_API_VERSION"]
+            # self.client = OpenAI(
+            #     api_key='',
+            #     )
+            messages = conv.to_openai_api_messages()
+            api_key = ""
+            client = AzureOpenAI(
+                    api_key=api_key,  
+                    api_version="2024-02-01",
+                    azure_endpoint = ""
+                    )
             headers = {
                 "Content-Type": "application/json",
                 "Authorization": f"Bearer {api_key}"
             }
-            client = AzureOpenAI(
-                    api_key=api_key,  
-                    api_version=api_version,
-                    azure_endpoint = api_base
-                    ) 
-            # print(f"client:{client}")
-            ############################
-            messages = conv.to_openai_api_messages()
-            # print(messages)
             response = client.chat.completions.create(
                 model=model,
                 messages=messages,
@@ -489,14 +486,6 @@ def chat_compeletion_openai(model, conv, temperature, max_tokens):
                 max_tokens=max_tokens,
             )
             output = response.choices[0].message.content
-            # response = openai.ChatCompletion.create(
-            #     model=model,
-            #     messages=messages,
-            #     n=1,
-            #     temperature=temperature,
-            #     max_tokens=max_tokens,
-            # )
-            # output = response["choices"][0]["message"]["content"]
             break
         # except openai.error.OpenAIError as e:
         #     print(type(e), e)
