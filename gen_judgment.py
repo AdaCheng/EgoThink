@@ -19,6 +19,7 @@ from common import (
     load_judge_prompts,
     check_data,
     play_a_match_pair,
+    play_a_match_temporal,
     play_a_match_single,
     get_model_list,
     Judge,
@@ -276,26 +277,35 @@ if __name__ == "__main__":
     else:
         models = args.model_list
 
-    if args.mode == "single":
+    if args.judge_model == "tg":
         judges = make_judge_single(args.judge_model, judge_prompts)
-        play_a_match_func = play_a_match_single
+        play_a_match_func = play_a_match_temporal
         output_file = (
             f"{data_folder}/{args.bench_name}/model_judgment/{args.judge_model}_single.jsonl"
         )
         make_match_func = make_match_single
-        baseline_model = None
+        baseline_model = None 
     else:
-        judges = make_judge_pairwise(args.judge_model, judge_prompts)
-        play_a_match_func = play_a_match_pair
-        output_file = (
-            f"{data_folder}/{args.bench_name}/model_judgment/{args.judge_model}_pair.jsonl"
-        )
-        if args.mode == "pairwise-all":
-            make_match_func = make_match_all_pairs
+        if args.mode == "single":
+            judges = make_judge_single(args.judge_model, judge_prompts)
+            play_a_match_func = play_a_match_single
+            output_file = (
+                f"{data_folder}/{args.bench_name}/model_judgment/{args.judge_model}_single.jsonl"
+            )
+            make_match_func = make_match_single
             baseline_model = None
         else:
-            make_match_func = make_match
-            baseline_model = args.baseline_model
+            judges = make_judge_pairwise(args.judge_model, judge_prompts)
+            play_a_match_func = play_a_match_pair
+            output_file = (
+                f"{data_folder}/{args.bench_name}/model_judgment/{args.judge_model}_pair.jsonl"
+            )
+            if args.mode == "pairwise-all":
+                make_match_func = make_match_all_pairs
+                baseline_model = None
+            else:
+                make_match_func = make_match
+                baseline_model = args.baseline_model
 
     if os.path.exists(output_file):
         # action = input(f"File {output_file} exists. Overwrite? (y/n)")
