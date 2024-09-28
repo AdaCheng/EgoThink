@@ -24,7 +24,9 @@ model_order = [
     'llava-1.5-13b',
     'llava-13b-llama2',
     'sharegpt4v',
-    'gpt-4o-frames'
+    'gpt-4o-frames',
+    'qwen2_vl',
+    'qwen-vl-chat'
 ]
 
 def display_result_single(args):

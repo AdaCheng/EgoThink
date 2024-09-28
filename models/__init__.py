@@ -110,5 +110,11 @@ def get_model(model_name, device=None):
     elif model_name == 'Idefics2'.lower():
         from .test_idefics2 import TestIdefics2
         return TestIdefics2(device=device)
+    elif model_name == "qwen-vl-chat":
+        from .test_qwen_vl_chat import TestQwenVLChat
+        return TestQwenVLChat(device)
+    elif model_name == "qwen2_vl":
+        from .test_qwen2vl import TestQwen2VL
+        return TestQwen2VL(device)
     else:
         raise ValueError(f"Invalid model_name: {model_name}")
