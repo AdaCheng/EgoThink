@@ -1,5 +1,5 @@
 from transformers import Qwen2VLForConditionalGeneration, AutoTokenizer, AutoProcessor
-from qwen_vl_utils import process_vision_info
+from qwen_vl_utils_new import process_vision_info
 from PIL import Image
 import requests
 import torch
