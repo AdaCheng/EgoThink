@@ -25,8 +25,8 @@ class TestQwen2VL:
 
         # default processer
         # self.processor = AutoProcessor.from_pretrained(model_path)
-        min_pixels = 256*28*28
-        max_pixels = 1280*28*28
+        min_pixels = 128*28*28
+        max_pixels = 256*28*28
         self.processor = AutoProcessor.from_pretrained(model_path, min_pixels=min_pixels, max_pixels=max_pixels)
 
     @torch.no_grad()
@@ -48,7 +48,7 @@ class TestQwen2VL:
                     {
                         "type": "video",
                         "video": video_path,
-                        "max_pixels": 360 * 420,
+                        "max_pixels": 80 * 60,
                         "fps": 1.0,
                     },
                     {"type": "text", "text": question},
@@ -56,27 +56,32 @@ class TestQwen2VL:
             }
         ]
         # Preparation for inference
-        text = self.processor.apply_chat_template(
-            messages, tokenize=False, add_generation_prompt=True
-        )
-        image_inputs, video_inputs = process_vision_info(messages)
-        inputs = self.processor(
-            text=[text],
-            images=image_inputs,
-            videos=video_inputs,
-            padding=True,
-            return_tensors="pt",
-        )
-        inputs = inputs.to("cuda")
+        try:
+            text = self.processor.apply_chat_template(
+                messages, tokenize=False, add_generation_prompt=True
+            )
+            image_inputs, video_inputs = process_vision_info(messages)
+            inputs = self.processor(
+                text=[text],
+                images=image_inputs,
+                videos=video_inputs,
+                padding=True,
+                return_tensors="pt",
+            )
+            inputs = inputs.to("cuda")
 
         # Inference
-        generated_ids = self.model.generate(**inputs, max_new_tokens=128)
-        generated_ids_trimmed = [
-            out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
-        ]
-        output_text = self.processor.batch_decode(
-            generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-        )
+            generated_ids = self.model.generate(**inputs, max_new_tokens=128)
+            generated_ids_trimmed = [
+                out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+            ]
+            output_text = self.processor.batch_decode(
+                generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+            )
+        except Exception as e:
+            print(e)
+            output_text = [""]
+        torch.cuda.empty_cache()
         return output_text
 
 if __name__ == "__main__":
