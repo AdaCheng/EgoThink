@@ -1,0 +1,902 @@
+[
+    {
+        "video_uid": "9adc0c59-1167-4311-abf3-7b57a0743b1d",
+        "start_time": 25.752065,
+        "end_time": 36.22737,
+        "video_path": "34.mp4",
+        "image_path": [
+            "34/frame_0001.png",
+            "34/frame_0004.png",
+            "34/frame_0007.png",
+            "34/frame_0011.png",
+            "34/frame_0014.png",
+            "34/frame_0017.png",
+            "34/frame_0021.png",
+            "34/frame_0024.png"
+        ],
+        "question": "After fetching water, where do you go next?",
+        "answer": "I walk to the oven."
+    },
+    {
+        "video_uid": "fb7cc35d-3272-44a4-b8f2-15cd24fa345b",
+        "start_time": 91.14482,
+        "end_time": 134.40788,
+        "video_path": "58.mp4",
+        "image_path": [
+            "58/frame_0001.png",
+            "58/frame_0014.png",
+            "58/frame_0028.png",
+            "58/frame_0041.png",
+            "58/frame_0055.png",
+            "58/frame_0069.png",
+            "58/frame_0082.png",
+            "58/frame_0096.png"
+        ],
+        "question": "What is the scene transition after the carrot ends are dropped in the sink?",
+        "answer": "The scene transitions from the sink area back to the countertop where the carrot is cut into pieces."
+    },
+    {
+        "video_uid": "fb7cc35d-3272-44a4-b8f2-15cd24fa345b",
+        "start_time": 91.14482,
+        "end_time": 134.40788,
+        "video_path": "58.mp4",
+        "image_path": [
+            "58/frame_0001.png",
+            "58/frame_0014.png",
+            "58/frame_0028.png",
+            "58/frame_0041.png",
+            "58/frame_0055.png",
+            "58/frame_0069.png",
+            "58/frame_0082.png",
+            "58/frame_0096.png"
+        ],
+        "question": "What is the final scene transition in the video?",
+        "answer": "The scene transitions from the chopping board area back to the sink where the carrots are washed."
+    },
+    {
+        "video_uid": "fb7cc35d-3272-44a4-b8f2-15cd24fa345b",
+        "start_time": 190.77968,
+        "end_time": 236.30751,
+        "video_path": "112.mp4",
+        "image_path": [
+            "112/frame_0001.png",
+            "112/frame_0015.png",
+            "112/frame_0029.png",
+            "112/frame_0043.png",
+            "112/frame_0058.png",
+            "112/frame_0072.png",
+            "112/frame_0086.png",
+            "112/frame_0100.png"
+        ],
+        "question": "Where does the scene transition after dumping carrot edges in the sink?",
+        "answer": "The scene transitions back to the chopping board in the kitchen."
+    },
+    {
+        "video_uid": "80a88fcb-8f4e-470d-bdff-1907852b49aa",
+        "start_time": 78.28256,
+        "end_time": 83.71233,
+        "video_path": "2852.mp4",
+        "image_path": [
+            "2852/frame_0001.png",
+            "2852/frame_0002.png",
+            "2852/frame_0004.png",
+            "2852/frame_0006.png",
+            "2852/frame_0008.png",
+            "2852/frame_0009.png",
+            "2852/frame_0011.png",
+            "2852/frame_0013.png"
+        ],
+        "question": "What is the next scene transition after closing the cupboard?",
+        "answer": "From standing in front of the cupboard to walking to the kitchen counter."
+    },
+    {
+        "video_uid": "f9ce56a3-3e9b-4edd-b133-c05eed792ec0",
+        "start_time": 808.56665,
+        "end_time": 818.82431,
+        "video_path": "3056.mp4",
+        "image_path": [
+            "3056/frame_0001.png",
+            "3056/frame_0004.png",
+            "3056/frame_0007.png",
+            "3056/frame_0010.png",
+            "3056/frame_0014.png",
+            "3056/frame_0017.png",
+            "3056/frame_0020.png",
+            "3056/frame_0023.png"
+        ],
+        "question": "What is the first scene transition in the video?",
+        "answer": "The scene transitions from the table to the sink."
+    },
+    {
+        "video_uid": "f9ce56a3-3e9b-4edd-b133-c05eed792ec0",
+        "start_time": 818.82431,
+        "end_time": 902.5294,
+        "video_path": "3064.mp4",
+        "image_path": [
+            "3064/frame_0001.png",
+            "3064/frame_0027.png",
+            "3064/frame_0053.png",
+            "3064/frame_0079.png",
+            "3064/frame_0106.png",
+            "3064/frame_0132.png",
+            "3064/frame_0158.png",
+            "3064/frame_0184.png"
+        ],
+        "question": "What is the first scene transition in the video?",
+        "answer": "From placing the bowl in the sink to taking the whisk mixer."
+    },
+    {
+        "video_uid": "9adc0c59-1167-4311-abf3-7b57a0743b1d",
+        "start_time": 66.64115,
+        "end_time": 80.41719,
+        "video_path": "54.mp4",
+        "image_path": [
+            "54/frame_0001.png",
+            "54/frame_0005.png",
+            "54/frame_0009.png",
+            "54/frame_0014.png",
+            "54/frame_0018.png",
+            "54/frame_0022.png",
+            "54/frame_0027.png",
+            "54/frame_0031.png"
+        ],
+        "question": "What is the first scene transition in the video?",
+        "answer": "From the kitchen counter to the oven."
+    },
+    {
+        "video_uid": "e7742d04-2dc5-4046-9d0c-d45c6fe74d25",
+        "start_time": 286.36928,
+        "end_time": 297.103,
+        "video_path": "442.mp4",
+        "image_path": [
+            "442/frame_0001.png",
+            "442/frame_0004.png",
+            "442/frame_0007.png",
+            "442/frame_0011.png",
+            "442/frame_0014.png",
+            "442/frame_0017.png",
+            "442/frame_0021.png",
+            "442/frame_0024.png"
+        ],
+        "question": "Does the scene change from the kitchen to another room during the video?",
+        "answer": "No, the scene remains in the kitchen throughout the video."
+    },
+    {
+        "video_uid": "grp-47305621-3729-44cc-8f1f-814faf214c40",
+        "start_time": 485.61288,
+        "end_time": 513.77599,
+        "video_path": "1268.mp4",
+        "image_path": [
+            "1268/frame_0001.png",
+            "1268/frame_0009.png",
+            "1268/frame_0018.png",
+            "1268/frame_0027.png",
+            "1268/frame_0036.png",
+            "1268/frame_0045.png",
+            "1268/frame_0054.png",
+            "1268/frame_0063.png"
+        ],
+        "question": "After adding the seasoning to the frying pan, where do you go next?",
+        "answer": "I go back to the cabinet to pick up the stirring sticks."
+    },
+    {
+        "video_uid": "f40e0f92-2250-46c9-98a0-8ccf23d164e0",
+        "start_time": 51.17782,
+        "end_time": 56.3268,
+        "video_path": "1760.mp4",
+        "image_path": [
+            "1760/frame_0001.png",
+            "1760/frame_0002.png",
+            "1760/frame_0004.png",
+            "1760/frame_0005.png",
+            "1760/frame_0007.png",
+            "1760/frame_0009.png",
+            "1760/frame_0010.png",
+            "1760/frame_0012.png"
+        ],
+        "question": "What is the first scene in the video?",
+        "answer": "The first scene is at the countertop where I drop another pot lid from the pot to the countertop."
+    },
+    {
+        "video_uid": "fb7cc35d-3272-44a4-b8f2-15cd24fa345b",
+        "start_time": 190.77968,
+        "end_time": 236.30751,
+        "video_path": "112.mp4",
+        "image_path": [
+            "112/frame_0001.png",
+            "112/frame_0015.png",
+            "112/frame_0029.png",
+            "112/frame_0043.png",
+            "112/frame_0058.png",
+            "112/frame_0072.png",
+            "112/frame_0086.png",
+            "112/frame_0100.png"
+        ],
+        "question": "What is the first location where the scene takes place?",
+        "answer": "The scene starts at the chopping board in the kitchen."
+    },
+    {
+        "video_uid": "6af04762-9ccf-41aa-bbfb-48a443c7cec3",
+        "start_time": 892.00469,
+        "end_time": 911.86484,
+        "video_path": "1473.mp4",
+        "image_path": [
+            "1473/frame_0001.png",
+            "1473/frame_0007.png",
+            "1473/frame_0013.png",
+            "1473/frame_0019.png",
+            "1473/frame_0026.png",
+            "1473/frame_0032.png",
+            "1473/frame_0038.png",
+            "1473/frame_0044.png"
+        ],
+        "question": "What is the first scene in the video?",
+        "answer": "The first scene is in front of the oven."
+    },
+    {
+        "video_uid": "e8657b65-be92-401d-a8d8-2fa32cb861c0",
+        "start_time": 402.10956,
+        "end_time": 415.9444,
+        "video_path": "1604.mp4",
+        "image_path": [
+            "1604/frame_0001.png",
+            "1604/frame_0005.png",
+            "1604/frame_0009.png",
+            "1604/frame_0014.png",
+            "1604/frame_0018.png",
+            "1604/frame_0022.png",
+            "1604/frame_0027.png",
+            "1604/frame_0031.png"
+        ],
+        "question": "What is the final location where the video ends?",
+        "answer": "The video ends at the cooker in the kitchen."
+    },
+    {
+        "video_uid": "grp-47305621-3729-44cc-8f1f-814faf214c40",
+        "start_time": 485.61288,
+        "end_time": 513.77599,
+        "video_path": "1268.mp4",
+        "image_path": [
+            "1268/frame_0001.png",
+            "1268/frame_0009.png",
+            "1268/frame_0018.png",
+            "1268/frame_0027.png",
+            "1268/frame_0036.png",
+            "1268/frame_0045.png",
+            "1268/frame_0054.png",
+            "1268/frame_0063.png"
+        ],
+        "question": "What is the first location you visit in the video?",
+        "answer": "The first location is the cabinet where I pick up the seasoning container."
+    },
+    {
+        "video_uid": "f9ce56a3-3e9b-4edd-b133-c05eed792ec0",
+        "start_time": 808.56665,
+        "end_time": 818.82431,
+        "video_path": "3056.mp4",
+        "image_path": [
+            "3056/frame_0001.png",
+            "3056/frame_0004.png",
+            "3056/frame_0007.png",
+            "3056/frame_0010.png",
+            "3056/frame_0014.png",
+            "3056/frame_0017.png",
+            "3056/frame_0020.png",
+            "3056/frame_0023.png"
+        ],
+        "question": "What is the final scene in the video?",
+        "answer": "The final scene is at the sink."
+    },
+    {
+        "video_uid": "a13a145f-920a-44ec-8aef-b489c097f4a7",
+        "start_time": 294.21739,
+        "end_time": 341.15273,
+        "video_path": "151.mp4",
+        "image_path": [
+            "151/frame_0001.png",
+            "151/frame_0015.png",
+            "151/frame_0030.png",
+            "151/frame_0045.png",
+            "151/frame_0060.png",
+            "151/frame_0074.png",
+            "151/frame_0089.png",
+            "151/frame_0104.png"
+        ],
+        "question": "What is the initial scene in the video?",
+        "answer": "The initial scene is in front of the cupboard."
+    },
+    {
+        "video_uid": "c2d06df7-5d3a-4116-9edb-f1c81a4f669b",
+        "start_time": 930.27182,
+        "end_time": 948.16746,
+        "video_path": "588.mp4",
+        "image_path": [
+            "588/frame_0001.png",
+            "588/frame_0006.png",
+            "588/frame_0012.png",
+            "588/frame_0017.png",
+            "588/frame_0023.png",
+            "588/frame_0029.png",
+            "588/frame_0034.png",
+            "588/frame_0040.png"
+        ],
+        "question": "Where is the tray initially located before being moved to the shelf?",
+        "answer": "The tray is on the table."
+    },
+    {
+        "video_uid": "f7866811-1030-4be5-af61-7f1dd797f36b",
+        "start_time": 1328.80772,
+        "end_time": 1332.4716,
+        "video_path": "806.mp4",
+        "image_path": [
+            "806/frame_0001.png",
+            "806/frame_0002.png",
+            "806/frame_0003.png",
+            "806/frame_0004.png",
+            "806/frame_0006.png",
+            "806/frame_0007.png",
+            "806/frame_0008.png",
+            "806/frame_0009.png"
+        ],
+        "question": "What is the final location where the tray is placed?",
+        "answer": "The tray is placed on the floor."
+    },
+    {
+        "video_uid": "grp-88bae242-7f3a-45d4-b129-5d69b1a1e15a",
+        "start_time": 328.93852,
+        "end_time": 339.583,
+        "video_path": "271.mp4",
+        "image_path": [
+            "271/frame_0001.png",
+            "271/frame_0004.png",
+            "271/frame_0007.png",
+            "271/frame_0011.png",
+            "271/frame_0014.png",
+            "271/frame_0017.png",
+            "271/frame_0021.png",
+            "271/frame_0024.png"
+        ],
+        "question": "Where is the cabbage picked from before being put in the sieve?",
+        "answer": "The chopping board."
+    },
+    {
+        "video_uid": "eec01ded-9bf6-4da4-b61c-ac6a022e8ce4",
+        "start_time": 2.39261,
+        "end_time": 32.29408,
+        "video_path": "13.mp4",
+        "image_path": [
+            "13/frame_0001.png",
+            "13/frame_0010.png",
+            "13/frame_0019.png",
+            "13/frame_0029.png",
+            "13/frame_0038.png",
+            "13/frame_0047.png",
+            "13/frame_0057.png",
+            "13/frame_0066.png"
+        ],
+        "question": "Where do I go after closing the fridge?",
+        "answer": "To the sink area."
+    },
+    {
+        "video_uid": "grp-cec778f9-9b54-4b67-b013-116378fd7a85",
+        "start_time": 210.379,
+        "end_time": 221.28107,
+        "video_path": "530.mp4",
+        "image_path": [
+            "530/frame_0001.png",
+            "530/frame_0004.png",
+            "530/frame_0008.png",
+            "530/frame_0011.png",
+            "530/frame_0015.png",
+            "530/frame_0018.png",
+            "530/frame_0022.png",
+            "530/frame_0025.png"
+        ],
+        "question": "Where does the scene transition to after the sink?",
+        "answer": "The scene transitions to the trash bin."
+    },
+    {
+        "video_uid": "d2606d87-2a9b-48df-96b2-5df1a4457215",
+        "start_time": 189.82177,
+        "end_time": 201.94,
+        "video_path": "625.mp4",
+        "image_path": [
+            "625/frame_0001.png",
+            "625/frame_0004.png",
+            "625/frame_0008.png",
+            "625/frame_0012.png",
+            "625/frame_0016.png",
+            "625/frame_0020.png",
+            "625/frame_0024.png",
+            "625/frame_0028.png"
+        ],
+        "question": "What is the next scene after placing the kettle on the charger?",
+        "answer": "The scene transitions to the blender area."
+    },
+    {
+        "video_uid": "grp-88bae242-7f3a-45d4-b129-5d69b1a1e15a",
+        "start_time": 434.129,
+        "end_time": 456.071,
+        "video_path": "353.mp4",
+        "image_path": [
+            "353/frame_0001.png",
+            "353/frame_0007.png",
+            "353/frame_0014.png",
+            "353/frame_0021.png",
+            "353/frame_0028.png",
+            "353/frame_0035.png",
+            "353/frame_0042.png",
+            "353/frame_0049.png"
+        ],
+        "question": "Where does the scene transition after peeling the daikon radish and dropping the peel in the sink?",
+        "answer": "The scene transitions to the chopping board."
+    },
+    {
+        "video_uid": "grp-88bae242-7f3a-45d4-b129-5d69b1a1e15a",
+        "start_time": 582.07776,
+        "end_time": 596.32156,
+        "video_path": "472.mp4",
+        "image_path": [
+            "472/frame_0001.png",
+            "472/frame_0005.png",
+            "472/frame_0010.png",
+            "472/frame_0014.png",
+            "472/frame_0019.png",
+            "472/frame_0023.png",
+            "472/frame_0028.png",
+            "472/frame_0032.png"
+        ],
+        "question": "What is the next scene after the cutting board?",
+        "answer": "The next scene is the sauce pan on the cooker."
+    },
+    {
+        "video_uid": "grp-056db3f1-f957-46c8-b16b-c8fce22e78f9",
+        "start_time": 225.52271,
+        "end_time": 244.74761,
+        "video_path": "1002.mp4",
+        "image_path": [
+            "1002/frame_0001.png",
+            "1002/frame_0007.png",
+            "1002/frame_0013.png",
+            "1002/frame_0019.png",
+            "1002/frame_0025.png",
+            "1002/frame_0031.png",
+            "1002/frame_0037.png",
+            "1002/frame_0043.png"
+        ],
+        "question": "What is the next location I move to after carrying the chopped cabbage from the chopping board?",
+        "answer": "The next location is at the fry pan."
+    },
+    {
+        "video_uid": "c2d06df7-5d3a-4116-9edb-f1c81a4f669b",
+        "start_time": 448.58452,
+        "end_time": 459,
+        "video_path": "288.mp4",
+        "image_path": [
+            "288/frame_0001.png",
+            "288/frame_0004.png",
+            "288/frame_0007.png",
+            "288/frame_0011.png",
+            "288/frame_0014.png",
+            "288/frame_0017.png",
+            "288/frame_0021.png",
+            "288/frame_0024.png"
+        ],
+        "question": "What is the first scene transition in the video?",
+        "answer": "The scene transitions from the baking table to the tray when the man moves the shaped dough."
+    },
+    {
+        "video_uid": "c2d06df7-5d3a-4116-9edb-f1c81a4f669b",
+        "start_time": 448.58452,
+        "end_time": 459,
+        "video_path": "288.mp4",
+        "image_path": [
+            "288/frame_0001.png",
+            "288/frame_0004.png",
+            "288/frame_0007.png",
+            "288/frame_0011.png",
+            "288/frame_0014.png",
+            "288/frame_0017.png",
+            "288/frame_0021.png",
+            "288/frame_0024.png"
+        ],
+        "question": "What is the final scene transition in the video?",
+        "answer": "The scene transitions from the bowl of seeds to the tray."
+    },
+    {
+        "video_uid": "c2d06df7-5d3a-4116-9edb-f1c81a4f669b",
+        "start_time": 1599.77661,
+        "end_time": 1608.86661,
+        "video_path": "713.mp4",
+        "image_path": [
+            "713/frame_0001.png",
+            "713/frame_0003.png",
+            "713/frame_0006.png",
+            "713/frame_0009.png",
+            "713/frame_0012.png",
+            "713/frame_0015.png",
+            "713/frame_0018.png",
+            "713/frame_0021.png"
+        ],
+        "question": "After taking the dough from the dough sheeter, where does the scene transition to next?",
+        "answer": "The scene transitions to the dough mixer."
+    },
+    {
+        "video_uid": "c2d06df7-5d3a-4116-9edb-f1c81a4f669b",
+        "start_time": 2022.84497,
+        "end_time": 2033.10666,
+        "video_path": "950.mp4",
+        "image_path": [
+            "950/frame_0001.png",
+            "950/frame_0004.png",
+            "950/frame_0007.png",
+            "950/frame_0010.png",
+            "950/frame_0014.png",
+            "950/frame_0017.png",
+            "950/frame_0020.png",
+            "950/frame_0023.png"
+        ],
+        "question": "What is the first scene transition in the video?",
+        "answer": "From the table to the tray of yeast."
+    },
+    {
+        "video_uid": "2c0c6508-397f-4c48-aeb7-abc7a3cae8d1",
+        "start_time": 142.10308,
+        "end_time": 161.65766,
+        "video_path": "709.mp4",
+        "image_path": [
+            "709/frame_0001.png",
+            "709/frame_0007.png",
+            "709/frame_0013.png",
+            "709/frame_0019.png",
+            "709/frame_0025.png",
+            "709/frame_0031.png",
+            "709/frame_0037.png",
+            "709/frame_0043.png"
+        ],
+        "question": "After throwing something in the trash bin, where do I go next?",
+        "answer": "I move to the chopping board to place the red pepper."
+    },
+    {
+        "video_uid": "2c0c6508-397f-4c48-aeb7-abc7a3cae8d1",
+        "start_time": 169.00443,
+        "end_time": 196.42069,
+        "video_path": "747.mp4",
+        "image_path": [
+            "747/frame_0001.png",
+            "747/frame_0009.png",
+            "747/frame_0018.png",
+            "747/frame_0026.png",
+            "747/frame_0035.png",
+            "747/frame_0044.png",
+            "747/frame_0052.png",
+            "747/frame_0061.png"
+        ],
+        "question": "What is the first scene transition in the video?",
+        "answer": "From the chopping board to the countertop."
+    },
+    {
+        "video_uid": "2c0c6508-397f-4c48-aeb7-abc7a3cae8d1",
+        "start_time": 169.00443,
+        "end_time": 196.42069,
+        "video_path": "747.mp4",
+        "image_path": [
+            "747/frame_0001.png",
+            "747/frame_0009.png",
+            "747/frame_0018.png",
+            "747/frame_0026.png",
+            "747/frame_0035.png",
+            "747/frame_0044.png",
+            "747/frame_0052.png",
+            "747/frame_0061.png"
+        ],
+        "question": "What is the scene transition after closing the bin?",
+        "answer": "To the tap."
+    },
+    {
+        "video_uid": "grp-c56e7e04-8787-4df1-98c6-352076f61e53",
+        "start_time": 176.77368,
+        "end_time": 185.63435,
+        "video_path": "1592.mp4",
+        "image_path": [
+            "1592/frame_0001.png",
+            "1592/frame_0003.png",
+            "1592/frame_0006.png",
+            "1592/frame_0009.png",
+            "1592/frame_0012.png",
+            "1592/frame_0015.png",
+            "1592/frame_0018.png",
+            "1592/frame_0021.png"
+        ],
+        "question": "What is the next location after the fridge in the video?",
+        "answer": "The next location is the counter."
+    },
+    {
+        "video_uid": "grp-0ee8d0ef-c5ba-42c5-9c40-8718faa081ec",
+        "start_time": 4.33728,
+        "end_time": 13.04719,
+        "video_path": "2765.mp4",
+        "image_path": [
+            "2765/frame_0001.png",
+            "2765/frame_0003.png",
+            "2765/frame_0006.png",
+            "2765/frame_0009.png",
+            "2765/frame_0012.png",
+            "2765/frame_0014.png",
+            "2765/frame_0017.png",
+            "2765/frame_0020.png"
+        ],
+        "question": "What is the first scene transition in the video?",
+        "answer": "The scene transitions from the countertop to the table."
+    },
+    {
+        "video_uid": "grp-0ee8d0ef-c5ba-42c5-9c40-8718faa081ec",
+        "start_time": 4.33728,
+        "end_time": 13.04719,
+        "video_path": "2765.mp4",
+        "image_path": [
+            "2765/frame_0001.png",
+            "2765/frame_0003.png",
+            "2765/frame_0006.png",
+            "2765/frame_0009.png",
+            "2765/frame_0012.png",
+            "2765/frame_0014.png",
+            "2765/frame_0017.png",
+            "2765/frame_0020.png"
+        ],
+        "question": "What is the final scene transition in the video?",
+        "answer": "The scene transitions from the countertop to the sink."
+    },
+    {
+        "video_uid": "grp-c56e7e04-8787-4df1-98c6-352076f61e53",
+        "start_time": 176.77368,
+        "end_time": 185.63435,
+        "video_path": "1592.mp4",
+        "image_path": [
+            "1592/frame_0001.png",
+            "1592/frame_0003.png",
+            "1592/frame_0006.png",
+            "1592/frame_0009.png",
+            "1592/frame_0012.png",
+            "1592/frame_0015.png",
+            "1592/frame_0018.png",
+            "1592/frame_0021.png"
+        ],
+        "question": "What is the first location visited in the video?",
+        "answer": "The first location visited is the fridge."
+    },
+    {
+        "video_uid": "f6a6c5d5-3fe0-42af-9ddb-fa1a63521c0d",
+        "start_time": 1.94834,
+        "end_time": 33.39673,
+        "video_path": "1883.mp4",
+        "image_path": [
+            "1883/frame_0001.png",
+            "1883/frame_0010.png",
+            "1883/frame_0020.png",
+            "1883/frame_0030.png",
+            "1883/frame_0040.png",
+            "1883/frame_0050.png",
+            "1883/frame_0060.png",
+            "1883/frame_0070.png"
+        ],
+        "question": "What is the initial scene where the interaction takes place?",
+        "answer": "The initial scene is the dining area where I interact with a woman."
+    },
+    {
+        "video_uid": "2c0c6508-397f-4c48-aeb7-abc7a3cae8d1",
+        "start_time": 169.00443,
+        "end_time": 196.42069,
+        "video_path": "747.mp4",
+        "image_path": [
+            "747/frame_0001.png",
+            "747/frame_0009.png",
+            "747/frame_0018.png",
+            "747/frame_0026.png",
+            "747/frame_0035.png",
+            "747/frame_0044.png",
+            "747/frame_0052.png",
+            "747/frame_0061.png"
+        ],
+        "question": "Where does the scene transition after placing the red pepper on the countertop?",
+        "answer": "To the bin."
+    },
+    {
+        "video_uid": "0e0d6704-1c6c-4a62-bc97-cc55658cf8ac",
+        "start_time": 1618.18794,
+        "end_time": 1631.12297,
+        "video_path": "1375.mp4",
+        "image_path": [
+            "1375/frame_0001.png",
+            "1375/frame_0005.png",
+            "1375/frame_0009.png",
+            "1375/frame_0013.png",
+            "1375/frame_0017.png",
+            "1375/frame_0021.png",
+            "1375/frame_0025.png",
+            "1375/frame_0029.png"
+        ],
+        "question": "After the baking tray is pushed inside the oven, where is it moved next?",
+        "answer": "The baking tray is pulled from the oven and then carried to the shelf."
+    },
+    {
+        "video_uid": "0e0d6704-1c6c-4a62-bc97-cc55658cf8ac",
+        "start_time": 1618.18794,
+        "end_time": 1631.12297,
+        "video_path": "1375.mp4",
+        "image_path": [
+            "1375/frame_0001.png",
+            "1375/frame_0005.png",
+            "1375/frame_0009.png",
+            "1375/frame_0013.png",
+            "1375/frame_0017.png",
+            "1375/frame_0021.png",
+            "1375/frame_0025.png",
+            "1375/frame_0029.png"
+        ],
+        "question": "Where is the baking tray moved to after being picked up from the table?",
+        "answer": "The baking tray is moved to the oven."
+    },
+    {
+        "video_uid": "c833a9f6-c59e-4f4e-816f-77f1a32c6c05",
+        "start_time": 1260.41118,
+        "end_time": 1270.72783,
+        "video_path": "1057.mp4",
+        "image_path": [
+            "1057/frame_0001.png",
+            "1057/frame_0004.png",
+            "1057/frame_0007.png",
+            "1057/frame_0010.png",
+            "1057/frame_0014.png",
+            "1057/frame_0017.png",
+            "1057/frame_0020.png",
+            "1057/frame_0023.png"
+        ],
+        "question": "After I lean the spatula against the pan, where do I move to next?",
+        "answer": "I move towards the counter."
+    },
+    {
+        "video_uid": "grp-1982af6d-8f53-43a5-b81a-cda5a8099e6e",
+        "start_time": 20.62311,
+        "end_time": 65.20207,
+        "video_path": "1419.mp4",
+        "image_path": [
+            "1419/frame_0001.png",
+            "1419/frame_0015.png",
+            "1419/frame_0029.png",
+            "1419/frame_0043.png",
+            "1419/frame_0057.png",
+            "1419/frame_0071.png",
+            "1419/frame_0085.png",
+            "1419/frame_0099.png"
+        ],
+        "question": "What is the first scene in the video?",
+        "answer": "The first scene is the counter where I pick a spoon from a bowl."
+    },
+    {
+        "video_uid": "grp-1982af6d-8f53-43a5-b81a-cda5a8099e6e",
+        "start_time": 20.62311,
+        "end_time": 65.20207,
+        "video_path": "1419.mp4",
+        "image_path": [
+            "1419/frame_0001.png",
+            "1419/frame_0015.png",
+            "1419/frame_0029.png",
+            "1419/frame_0043.png",
+            "1419/frame_0057.png",
+            "1419/frame_0071.png",
+            "1419/frame_0085.png",
+            "1419/frame_0099.png"
+        ],
+        "question": "What is the second scene in the video?",
+        "answer": "The second scene is the cooker where I remove the cover of a pan."
+    },
+    {
+        "video_uid": "13c76616-f168-4af0-8d2a-fe82ce232d6a",
+        "start_time": 80.26872,
+        "end_time": 85.53232,
+        "video_path": "644.mp4",
+        "image_path": [
+            "644/frame_0001.png",
+            "644/frame_0002.png",
+            "644/frame_0004.png",
+            "644/frame_0006.png",
+            "644/frame_0008.png",
+            "644/frame_0009.png",
+            "644/frame_0011.png",
+            "644/frame_0013.png"
+        ],
+        "question": "What is the initial scene in the video?",
+        "answer": "The initial scene is in front of the stove."
+    },
+    {
+        "video_uid": "6d3939f5-5636-43c7-94bb-86318392bd2d",
+        "start_time": 3.22739,
+        "end_time": 14.03271,
+        "video_path": "1597.mp4",
+        "image_path": [
+            "1597/frame_0001.png",
+            "1597/frame_0004.png",
+            "1597/frame_0007.png",
+            "1597/frame_0011.png",
+            "1597/frame_0014.png",
+            "1597/frame_0017.png",
+            "1597/frame_0021.png",
+            "1597/frame_0024.png"
+        ],
+        "question": "What is the initial scene in the video?",
+        "answer": "The initial scene is the baking table where I roll the dough."
+    },
+    {
+        "video_uid": "c2d06df7-5d3a-4116-9edb-f1c81a4f669b",
+        "start_time": 930.27182,
+        "end_time": 948.16746,
+        "video_path": "588.mp4",
+        "image_path": [
+            "588/frame_0001.png",
+            "588/frame_0006.png",
+            "588/frame_0012.png",
+            "588/frame_0017.png",
+            "588/frame_0023.png",
+            "588/frame_0029.png",
+            "588/frame_0034.png",
+            "588/frame_0040.png"
+        ],
+        "question": "What is the final location in the video?",
+        "answer": "The final location in the video is the shelf where the tray is placed."
+    },
+    {
+        "video_uid": "c2d06df7-5d3a-4116-9edb-f1c81a4f669b",
+        "start_time": 2394.3688,
+        "end_time": 2399.57933,
+        "video_path": "1211.mp4",
+        "image_path": [
+            "1211/frame_0001.png",
+            "1211/frame_0002.png",
+            "1211/frame_0004.png",
+            "1211/frame_0005.png",
+            "1211/frame_0007.png",
+            "1211/frame_0009.png",
+            "1211/frame_0010.png",
+            "1211/frame_0012.png"
+        ],
+        "question": "What is the final location visited in the video?",
+        "answer": "The final location is the sink where I put the jug on top."
+    },
+    {
+        "video_uid": "grp-cec778f9-9b54-4b67-b013-116378fd7a85",
+        "start_time": 210.379,
+        "end_time": 221.28107,
+        "video_path": "530.mp4",
+        "image_path": [
+            "530/frame_0001.png",
+            "530/frame_0004.png",
+            "530/frame_0008.png",
+            "530/frame_0011.png",
+            "530/frame_0015.png",
+            "530/frame_0018.png",
+            "530/frame_0022.png",
+            "530/frame_0025.png"
+        ],
+        "question": "What is the final location in the video?",
+        "answer": "The final location in the video is at the trash bin."
+    },
+    {
+        "video_uid": "89af735b-7c13-4366-befe-efd6cd5402ff",
+        "start_time": 1136.82114,
+        "end_time": 1178.32011,
+        "video_path": "670.mp4",
+        "image_path": [
+            "670/frame_0001.png",
+            "670/frame_0014.png",
+            "670/frame_0027.png",
+            "670/frame_0040.png",
+            "670/frame_0053.png",
+            "670/frame_0066.png",
+            "670/frame_0079.png",
+            "670/frame_0092.png"
+        ],
+        "question": "What is the location where I walk towards after gathering cabbage in the bowl?",
+        "answer": "Towards the gas cooker."
+    }
+]
