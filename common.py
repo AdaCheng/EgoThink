@@ -485,6 +485,7 @@ def chat_compeletion_openai(model, conv, temperature, max_tokens):
                 temperature=temperature,
                 max_tokens=max_tokens,
             )
+            time.sleep(API_RETRY_SLEEP)
             output = response.choices[0].message.content
             break
         # except openai.error.OpenAIError as e:
@@ -492,6 +493,9 @@ def chat_compeletion_openai(model, conv, temperature, max_tokens):
         # replace the following part 
         except openai.AuthenticationError:
             print("Authentication error: Invalid API key or insufficient permissions.")
+        except Exception as e:
+            print(type(e), e)
+            time.sleep(API_RETRY_SLEEP)
     return output
 
 
