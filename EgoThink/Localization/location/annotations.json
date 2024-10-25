@@ -1,0 +1,402 @@
+[
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "1.jpg"
+        ],
+        "question": "Where am I?",
+        "answer": "In the kitchen."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "2.jpg"
+        ],
+        "question": "Which room am I in at home?",
+        "answer": "Living room."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "3.jpg"
+        ],
+        "question": "Is this place used for cooking food or playing games?",
+        "answer": "Cooking food."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "4.jpg"
+        ],
+        "question": "Am I on the lawn or on the road?",
+        "answer": "On the lawn."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "5.jpg"
+        ],
+        "question": "Where am I? ",
+        "answer": "In the washroom."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "6.jpg"
+        ],
+        "question": "Am I more likely to study in the library or in the dormitory right now?",
+        "answer": "In the library."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "7.jpg"
+        ],
+        "question": "What kind of vehicle I am in?",
+        "answer": "Car."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "8.jpg"
+        ],
+        "question": "Where am I now?",
+        "answer": "In a lab."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "9.jpg"
+        ],
+        "question": "Where am I?",
+        "answer": "In a grocery."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "10.jpg"
+        ],
+        "question": "Am I in the grocery or in the pharmacy?",
+        "answer": "In the pharmacy."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "11.jpg"
+        ],
+        "question": "Am I probably at the wet market?",
+        "answer": "yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "12.jpg"
+        ],
+        "question": "Where am I, indoor or outdoor?",
+        "answer": "Outdoor."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "13.jpg"
+        ],
+        "question": "Am I in the bedroom?",
+        "answer": "No."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "14.jpg"
+        ],
+        "question": "Am I at the bicycle repair shop?",
+        "answer": "No."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "15.jpg"
+        ],
+        "question": "What am I surrounded by, timber or steel?",
+        "answer": "Timber."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "16.jpg"
+        ],
+        "question": "What am I sitting on?",
+        "answer": "Bed."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "17.jpg"
+        ],
+        "question": "Am I in the backyard or on the balcony?",
+        "answer": "In the backyard."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "18.jpg"
+        ],
+        "question": "What kind of store am I in?",
+        "answer": "Clothing store."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "19.jpg"
+        ],
+        "question": "Where am I?",
+        "answer": "In the parking lot."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "20.jpg"
+        ],
+        "question": "Which type of store I am in?",
+        "answer": "Cosmetic store."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "21.jpg"
+        ],
+        "question": "What is this place, forest or sea?",
+        "answer": "Forest."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "22.jpg"
+        ],
+        "question": "Where am I in the store now?",
+        "answer": "At the cashier."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "23.jpg"
+        ],
+        "question": "Am I in the bedroom?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "24.jpg"
+        ],
+        "question": "Do I work in a car repair shop or a bicycle repair shop?",
+        "answer": "Car repair shop."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "25.jpg"
+        ],
+        "question": "Am I by the window or by the door?",
+        "answer": "By the window."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "26.jpg"
+        ],
+        "question": "Do I play games in the dormitory or in the classroom?",
+        "answer": "In the dormitory."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "27.jpg"
+        ],
+        "question": "Where am I with my dog?",
+        "answer": "On the road."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "28.jpg"
+        ],
+        "question": "Where am I?",
+        "answer": "In the staircase."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "29.jpg"
+        ],
+        "question": "Am I closer to the dining room or the kitchen??",
+        "answer": "The dining room."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "30.jpg"
+        ],
+        "question": "Am I in a electronic store?",
+        "answer": "No."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "31.jpg"
+        ],
+        "question": "Is it possible that I am now in a shoe store?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "32.jpg"
+        ],
+        "question": "Could this be the musical instrument room?",
+        "answer": "yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "33.jpg"
+        ],
+        "question": "Am I working in a steel plant?",
+        "answer": "No."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "34.jpg"
+        ],
+        "question": "Are we more likely eating at home or in a restaurant?",
+        "answer": "At home."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "35.jpg"
+        ],
+        "question": "Am I in the backyard or on the balcony?",
+        "answer": "On the balcony."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "36.jpg"
+        ],
+        "question": "Am I eating outdoors or indoors?",
+        "answer": "Indoors."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "37.jpg"
+        ],
+        "question": "What is this place usually used for?",
+        "answer": "Camping."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "38.jpg"
+        ],
+        "question": "Am I more likely in the study or the living room?",
+        "answer": "The study."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "39.jpg"
+        ],
+        "question": "Where do I work?",
+        "answer": "In the barber shop."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "40.jpg"
+        ],
+        "question": "Am I cultivate the plants indoors or outdoors?",
+        "answer": "indoors."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "41.jpg"
+        ],
+        "question": "Where am I now?",
+        "answer": "In a gym."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "42.jpg"
+        ],
+        "question": "Where am I?",
+        "answer": "In a car."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "43.jpg"
+        ],
+        "question": "Where am I now?",
+        "answer": "On a golf course."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "44.jpg"
+        ],
+        "question": "Am I walking on a country lane or on the road?",
+        "answer": "On the country lane."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "45.jpg"
+        ],
+        "question": "What kind of shop might I work in?",
+        "answer": "Bakery."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "46.jpg"
+        ],
+        "question": "Where am I now, vineyard or olive grove?",
+        "answer": "vineyard."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "47.jpg"
+        ],
+        "question": "Am I at home or outside?",
+        "answer": "outside."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "48.jpg"
+        ],
+        "question": "Am I at school or at work?",
+        "answer": "at school."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "49.jpg"
+        ],
+        "question": "Where am I now?",
+        "answer": "In the fields."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "50.jpg"
+        ],
+        "question": "Where am I now?",
+        "answer": "In the kitchen."
+    }
+]

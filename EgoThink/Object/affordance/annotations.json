@@ -1,0 +1,402 @@
+[
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "1.jpg"
+        ],
+        "question": "Can this object in my hand be used to hold water?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "2.jpg"
+        ],
+        "question": "What's the use of the object in my left hand?",
+        "answer": "painting"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "3.jpg"
+        ],
+        "question": "Are the things in my hands are used for entertainment?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "4.jpg"
+        ],
+        "question": "What's the use of the tool in my hand?",
+        "answer": "painting the wall"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "5.jpg"
+        ],
+        "question": "Why do I wear things on my hands?",
+        "answer": "to protect my hands"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "6.jpg"
+        ],
+        "question": "Can the object in my hand be used to make phone calls?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "7.jpg"
+        ],
+        "question": "what is the plastic object under my left hand used as?",
+        "answer": "paint tray"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "8.jpg"
+        ],
+        "question": "What does the object I'm wearing on my left wrist mainly used for?",
+        "answer": "provide the time"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "9.jpg"
+        ],
+        "question": "Can I use the object in my hand to play audio?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "10.jpg"
+        ],
+        "question": "What can I do with the object in front of me?",
+        "answer": "riding"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "11.jpg"
+        ],
+        "question": "What can I do with the tool in my right hand?",
+        "answer": "mowing"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "12.jpg"
+        ],
+        "question": "What is the use of the object in my left hand?",
+        "answer": "serving food"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "13.jpg"
+        ],
+        "question": "What am I doing with the tool I'm holding in my left hand?",
+        "answer": "inflate a tire"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "14.jpg"
+        ],
+        "question": "Can the items in my hands be used to kill the time?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "15.jpg"
+        ],
+        "question": "Can the object in my hands be use to serve food?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "16.jpg"
+        ],
+        "question": "What is the object I put on top with my right hand used for?",
+        "answer": "Controlling the water flow"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "17.jpg"
+        ],
+        "question": "Can I use the object in my hand to check the time?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "18.jpg"
+        ],
+        "question": "What can I do with the thing in my hands?",
+        "answer": "drink"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "19.jpg"
+        ],
+        "question": "Can the object in my right hand be used as a part of some tires?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "20.jpg"
+        ],
+        "question": "What's the use of the object in my right hand?",
+        "answer": "Eating food"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "21.jpg"
+        ],
+        "question": "Can I use the object in my right hand to write?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "22.jpg"
+        ],
+        "question": "Can I use the object in my right hand to play music?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "23.jpg"
+        ],
+        "question": "What is the use of the tool that I am holding in my right hand?",
+        "answer": "cutting"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "24.jpg"
+        ],
+        "question": "What is the use of the tool that I am holding in my right hand?",
+        "answer": "weaving"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "25.jpg"
+        ],
+        "question": "What can the object holding in my right hand be used for?",
+        "answer": "carrying belongings"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "26.jpg"
+        ],
+        "question": "What's the use of the object on my right side?",
+        "answer": "block light"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "27.jpg"
+        ],
+        "question": "Can I use the thing I hold in my hand to wash my face?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "28.jpg"
+        ],
+        "question": "Can the object in front of me be used for grooming oneself?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "29.jpg"
+        ],
+        "question": "Can the object I am touching be used for sitting?",
+        "answer": "no"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "30.jpg"
+        ],
+        "question": "Can I drive the object that I'm sitting on at a high speed?",
+        "answer": "no"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "31.jpg"
+        ],
+        "question": "What's the use of the thing in my hands?",
+        "answer": "watering"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "32.jpg"
+        ],
+        "question": "What is the use of the tool that I am holding?",
+        "answer": "Mopping"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "33.jpg"
+        ],
+        "question": "Are these objects that I'm holding in my hands mainly used for decoration?",
+        "answer": "no"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "34.jpg"
+        ],
+        "question": "What can this thing in my hand be used to do?",
+        "answer": "bind objects"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "35.jpg"
+        ],
+        "question": "What's the use of the object I'm holding in my hand?",
+        "answer": "cleaning"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "36.jpg"
+        ],
+        "question": "Can I use the thing in my hands to protect certain products?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "37.jpg"
+        ],
+        "question": "Can I use the object in my hands to take photos?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "38.jpg"
+        ],
+        "question": "What is the use of the object I am holding in my right hand?",
+        "answer": "holding water"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "39.jpg"
+        ],
+        "question": "What can the thing in my left hand be used for?",
+        "answer": "drawing vertical lines"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "40.jpg"
+        ],
+        "question": "What can the thing in my left hand be used for?",
+        "answer": "screwing"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "41.jpg"
+        ],
+        "question": "What is the use of the thing in my left hand?",
+        "answer": "filtering out the water"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "42.jpg"
+        ],
+        "question": "What is the use of the thing in my left hand?",
+        "answer": "braking"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "43.jpg"
+        ],
+        "question": "What can the thing in my hands be used for?",
+        "answer": "smoothing the plank"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "44.jpg"
+        ],
+        "question": "What can the thing in my right hand be used for?",
+        "answer": "painting"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "45.jpg"
+        ],
+        "question": "What can the grey thing holding in my hands be used for?",
+        "answer": "insulating heat"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "46.jpg"
+        ],
+        "question": "What am I doing with the thing in my right hand?",
+        "answer": "peeling"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "47.jpg"
+        ],
+        "question": "What am I doing with the thing in my right hand?",
+        "answer": "cleaning"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "48.jpg"
+        ],
+        "question": "What can I do with the thing holding in my left hand? To boil or to fry or both?",
+        "answer": "both"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "49.jpg"
+        ],
+        "question": "What can I do with the thing I'm holding in my right hand?",
+        "answer": "I can use it to control direction"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "50.jpg"
+        ],
+        "question": "What can the thing holding in my right hand be used for?",
+        "answer": "cutting food"
+    }
+]

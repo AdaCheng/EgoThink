@@ -1,0 +1,403 @@
+[
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "1.jpg"
+        ],
+        "question": "Is the object I'm holding in my left hand made of transparent material or opaque material?",
+        "answer": "it is made of transparent material"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "2.jpg"
+        ],
+        "question": "Am I wearing blue clothes?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "3.jpg"
+        ],
+        "question": "Is the thing holding in my hands the same color as my clothes?",
+        "answer": "no"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "4.jpg"
+        ],
+        "question": "Is the thing I'm holding in my right hand sharp or blunt?",
+        "answer": "sharp"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "5.jpg"
+        ],
+        "question": "Is the thing I am holding longer or shorter than my fingers?",
+        "answer": "Longer than my fingers"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "6.jpg"
+        ],
+        "question": "Are most parts of the object I'm holding in my right hand transparent?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "7.jpg"
+        ],
+        "question": "What's the color of the thing in my hands?",
+        "answer": "white"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "8.jpg"
+        ],
+        "question": "What's the color of the object holding in my right hand?",
+        "answer": "blue"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "9.jpg"
+        ],
+        "question": "What's the color of the object holding in my left hand?",
+        "answer": "orange"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "10.jpg"
+        ],
+        "question": "Are the things holding in my hands white?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "11.jpg"
+        ],
+        "question": "Is the thing in the paper bag I'm holding solid or liquid?",
+        "answer": "it is solid"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "12.jpg"
+        ],
+        "question": "What's the color of the thing in my right hand?",
+        "answer": "yellow"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "13.jpg"
+        ],
+        "question": "What color is the cap of the bottle in my hand?",
+        "answer": "blue"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "14.jpg"
+        ],
+        "question": "What is the material of the object in my left hand?",
+        "answer": "wooden"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "15.jpg"
+        ],
+        "question": "Is the item I'm holding in my hand rusty or not?",
+        "answer": "it is rusty"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "16.jpg"
+        ],
+        "question": "Is the thing I'm holding in my left hand porous or non-porous?",
+        "answer": "it is porous"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "17.jpg"
+        ],
+        "question": "What is the shape of the object I am holding in my left hand?",
+        "answer": "rectangular"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_id": "2_71",
+        "question": "What's the color of the thing holding in my left hand?",
+        "image_path": [
+            "18.jpg"
+        ],
+        "answer": "black"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "19.jpg"
+        ],
+        "question": "Is my pants all black?",
+        "answer": "no"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "20.jpg"
+        ],
+        "question": "Is the thing holding in my right hand made of plastic or not?",
+        "answer": "it is not made of plastic"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "21.jpg"
+        ],
+        "question": "What's the state of the object in my right hand?",
+        "answer": "liquid"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "22.jpg"
+        ],
+        "question": "Is the thing touching by my right hand made of plastic or ceramic?",
+        "answer": "it is made of ceramic"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "23.jpg"
+        ],
+        "question": "Is the surface of the thing that I'm holding smooth?",
+        "answer": "no"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "24.jpg"
+        ],
+        "question": "Is the thing I'm cutting a fruit or a vegetable?",
+        "answer": "it is a vegetable"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "25.jpg"
+        ],
+        "question": "What material is the thing in my hand?",
+        "answer": "metal"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "26.jpg"
+        ],
+        "question": "What's the thing I am wearing on my feet made of?",
+        "answer": "plastic"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "27.jpg"
+        ],
+        "question": "What's the shape of the white part of the thing holding in my left hand?",
+        "answer": "it is cylindrical."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "28.jpg"
+        ],
+        "question": "Is the thing that I am holding in my right hand sharp?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "29.jpg"
+        ],
+        "question": "Does the thing I'm cutting have stripes or not?",
+        "answer": "the thing I'm cutting has striples"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "30.jpg"
+        ],
+        "question": "What color is the thing in my hand?",
+        "answer": "pink"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "31.jpg"
+        ],
+        "question": "Does the thing I'm wearing on my right wrist look like it's made of metal?",
+        "answer": "yes"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "32.jpg"
+        ],
+        "question": "Is the knife between my legs serrated or straight-edged?",
+        "answer": "serrated"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "33.jpg"
+        ],
+        "question": "What's the main color of the thing holding in my left hand?",
+        "answer": "green"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "34.jpg"
+        ],
+        "question": "Is the thing in my hand smooth or rough?",
+        "answer": "smooth"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "35.jpg"
+        ],
+        "question": "Are the items in my hands made of plastic?",
+        "answer": "no"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "36.jpg"
+        ],
+        "question": "Is the substance in the pot I'm holding in my hand solid or liquid?",
+        "answer": "liquid"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "37.jpg"
+        ],
+        "question": "What color are the things cover my hands?",
+        "answer": "blue"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "38.jpg"
+        ],
+        "question": "What color is the thing in my right hand?",
+        "answer": "green"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "39.jpg"
+        ],
+        "question": "Is the thing I'm holding in my right hand made of sponge or cloth?",
+        "answer": "it is made of sponge"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "40.jpg"
+        ],
+        "question": "What material is the item I'm currently cutting with the machine made of?",
+        "answer": "wooden"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "41.jpg"
+        ],
+        "question": "What's the color of the items I am holding in my hands?",
+        "answer": "white"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "42.jpg"
+        ],
+        "question": "Is the thing I'm cleaning reflective or non-reflective?",
+        "answer": "it is reflective"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "43.jpg"
+        ],
+        "question": "Is the painting I am drawing coloured or black and white?",
+        "answer": "black and white"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "44.jpg"
+        ],
+        "question": "What is the thing I'm holding in my left hand made of?",
+        "answer": "plastic"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "45.jpg"
+        ],
+        "question": "What is the color of my nails?",
+        "answer": "dark red"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "46.jpg"
+        ],
+        "question": "Is the thing I'm holding in my left hand made of sponge or cloth?",
+        "answer": "it is made of cloth"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "47.jpg"
+        ],
+        "question": "Is the width of the thing I'm stepping on with my left foot longer or shorter than my left foot?",
+        "answer": "shorter than my left foot"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "48.jpg"
+        ],
+        "question": "What color is the object in my right hand?",
+        "answer": "blue"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "49.jpg"
+        ],
+        "question": "Is the object that I am holding flat or not?",
+        "answer": "it is not flat"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "50.jpg"
+        ],
+        "question": "Is the thing that I am cutting made of paper or wood?",
+        "answer": "it is made of paper"
+    }
+]
