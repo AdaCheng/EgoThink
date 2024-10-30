@@ -70,6 +70,13 @@ python show_result.py \
 ## Citation
 
 ```bibtex
+@article{cheng2024videgothink,
+  title={VidEgoThink: Assessing Egocentric Video Understanding Capabilities for Embodied AI},
+  author={Cheng, Sijie and Fang, Kechen and Yu, Yangyang and Zhou, Sicheng and Li, Bohao and Tian, Ye and Li, Tingguang and Han, Lei and Liu, Yang},
+  journal={arXiv preprint arXiv:2410.11623},
+  year={2024}
+}
+
 @InProceedings{Cheng_2024_CVPR,
     author    = {Cheng, Sijie and Guo, Zhicheng and Wu, Jingwen and Fang, Kechen and Li, Peng and Liu, Huaping and Liu, Yang},
     title     = {EgoThink: Evaluating First-Person Perspective Thinking Capability of Vision-Language Models},
