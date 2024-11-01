@@ -37,6 +37,7 @@ def get_model(model_name, device=None):
     #     from .test_blip2 import TestBlip2
     #     return TestBlip2(device)
     # el
+
     if model_name == 'blip2-7b':
         from .test_blip2 import TestBlip2
         return TestBlip2(name='blip2_opt', model_type='pretrain_opt6.7b', config_path='/models/blip_configs/blip2_pretrain_opt6.7b.yaml', device=device)
@@ -85,6 +86,9 @@ def get_model(model_name, device=None):
     elif model_name == 'LLaMA-Adapter-v2'.lower():
         from .test_llama_adapter_v2 import TestLLamaAdapterV2
         return TestLLamaAdapterV2(device)
+    elif model_name == 'minigpt-4'.lower():
+        from .test_minigpt4 import TestMiniGPT4
+        return TestMiniGPT4(device)
     elif model_name == 'pandagpt-7b':
         from .test_pandagpt import TestPandaGPT
         return TestPandaGPT('7b', device)

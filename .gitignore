@@ -1,1 +1,9 @@
 __pycache__/
+alignment.txt
+blip2_pretrained_flant5xxl.pth
+download_model.sh
+vicuna-7b*
+answer
+prerained_minigpt4_7b.pth
+run_minigpt4.sh
+models/minigpt4.ipynb

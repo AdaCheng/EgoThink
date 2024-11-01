@@ -26,7 +26,7 @@ def parse_args():
     parser.add_argument("--batch_size", type=int, default=1)
 
     # datasets
-    parser.add_argument("--dataset-names", type=str, default=None)
+    parser.add_argument("--dataset_name", type=str, default=None)
     parser.add_argument('--annotation_path', type=str, required=True)
     # result_path
     parser.add_argument("--answer_path", type=str, default="./tiny_answers")
@@ -182,10 +182,13 @@ def main(args):
     # secondary_abilities = args.secondary_ability.split(',')
     time = datetime.datetime.now().strftime("%m%d-%H%M")
     # path: /${dataset}/annotations.json 
-    if "hp_m2l" in args.answer_path:
-        dataset_name = 'hp_m2l'
-    else:
-        dataset_name = 'hp_h2m'
+    # if "hp_m2l" in args.answer_path:
+    #     dataset_name = 'hp_m2l'
+    # elif "hp_h2m" in args.answer_path:
+    #     dataset_name = 'hp_h2m'
+    # else:
+    #     dataset_name = 'Other'
+    dataset_name = args.dataset_name
 
     print(f"dataset name: {dataset_name}")
     print(f"Running inference on {dataset_name}")
@@ -225,6 +228,8 @@ def main(args):
                     print(output)
                     outputs = [output]
                 except Exception as e:
+                    import traceback
+                    traceback.print_exc()
                     print(f"Error: {e}")
                     outputs = ['']
             else:
