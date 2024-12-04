@@ -1,6 +1,6 @@
 <div align="center">
   <img src="assets/image-2.png" alt="icon" style="vertical-align: middle;" width="50">
-  <strong style="vertical-align: middle; font-size: 26px">EgoThink</strong>
+  <span style="vertical-align: middle; font-size: 26px">EgoThink</span>
 </div>
 
 <div align="center">
