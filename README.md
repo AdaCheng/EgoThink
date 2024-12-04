@@ -8,7 +8,7 @@
   <img src="assets/image-1.png" alt="intro" width="60%">
 </p>
 
-Accepted by <i>**CVPR 2024** <strong>Highlights</strong></i>
+<i>Figure 1:</i> The main categories of EgoThink to comprehensively assess the capability of thinking from a first-person perspective.
 </div>
 
 
@@ -19,7 +19,7 @@ Accepted by <i>**CVPR 2024** <strong>Highlights</strong></i>
 [2024-04]: EgoThink is invited to be presented in ByteDance.<br>
 [2024-04]: EgoThink will be presented as a Poster (<b>Highlight</b>👀) in CVPR 2024.<br>
 [2024-03]: EgoThink is presented in <a href="https://www.bilibili.com/video/BV13D42157gP/?spm_id_from=333.1387.search.video_card.click">AITIME</a>.<br>
-[2024-02]: EgoThink has been accepted by CVPR 2024.<br>
+[2024-02]: EgoThink has been accepted by <b>CVPR 2024</b>.<br>
 [2023-11]: Our paper <a href="https://arxiv.org/abs/2311.15596">Can Vision-Language Models Think from a First-Person Perspective?</a> has been released.<br>
 </i>
 
@@ -27,11 +27,11 @@ Accepted by <i>**CVPR 2024** <strong>Highlights</strong></i>
 
 ### Overview
 
-<p align="center">
+<div align="center">
   <img src="assets/image.png" alt="overview" width="100%">
 
-<i>Figure 2:</i> Categories with fine-grained dimensions and their corresponding examples of EgoThink benchmark.
-</p>
+  <i>Figure 2:</i> Categories with fine-grained dimensions and their corresponding examples of EgoThink benchmark.
+</div>
 
 ### Download
 
