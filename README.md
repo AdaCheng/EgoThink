@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align="center">
   <img src="assets/image-2.png" alt="icon" style="vertical-align: middle;" width="50">
   <span style="vertical-align: middle; font-size: 26px"><strong>EgoThink</strong></span>
 </div>
