@@ -192,15 +192,13 @@ body {
 }
 
 .box {
-  display: flex;
-  align-items: center; 
-  justify-content: center; 
-  height: 100%;
-  margin: 5px; 
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
 }
 
 .image-container {
-  display: inline-block;
+  display: block;
 }
 
 .image-container img {
