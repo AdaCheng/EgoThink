@@ -1,14 +1,13 @@
-<center>
 <h2>EgoThink: Evaluating First-Person Perspective Thinking Capability of Vision-Language Models</h2>
 
 [**🌐 Homepage**](https://adacheng.github.io/EgoThink/) | [**🤗 Dataset**](https://huggingface.co/datasets/EgoThink/EgoThink) | [**🤗 Paper**](https://huggingface.co/papers/2311.15596) | [**📖 arXiv**](https://arxiv.org/abs/2311.15596) | [**🏆 Leaderboard**](https://adacheng.github.io/EgoThink/#leaderboard)
 
-<p>
+<p align="center>
   <img src="image-1.png" alt="intro" width="60%">
 </p>
 
 Accepted by <i>**CVPR 2024** <font color="red"><strong>Highlights</strong></font></i>
-</center>
+
 
 ## 🔔 News
 [2024-10]: Our related paper <a href="https://arxiv.org/abs/2410.11623">VidEgoThink: Assessing Egocentric Video Understanding Capabilities for Embodied AI</a> has been released.<br>
@@ -24,7 +23,10 @@ Accepted by <i>**CVPR 2024** <font color="red"><strong>Highlights</strong></font
 
 ### Overview
 
-![Overview](image.png)
+<p align="center>
+  <img src="image.png" alt="overview" width="100%">
+</p>
+
 <center>
 <i>Figure 2:</i> Categories with fine-grained dimensions and their corresponding examples of EgoThink benchmark.
 </center>
