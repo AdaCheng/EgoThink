@@ -10,10 +10,10 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <meta charset="utf-8">
   <meta name="description"
-        content="Can Vision-Language Models Think from a First-Person Perspective?">
+        content="Evaluating First-Person Perspective Thinking Capability of Vision-Language Models">
   <meta name="keywords" content="EgoThink, VLM, VLM Evaluation, Vision Language Model, First-Person, Egocentric, Agent, artificial intelligence, AI, AGI">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> EgoThink: Can Vision-Language Models Think from a First-Person Perspective?</title>
+  <title> EgoThink: Evaluating First-Person Perspective Thinking Capability of Vision-Language Models</title>
 
   <link rel="icon" href="./static/images/EgoThink_icon.png">
 
@@ -58,9 +58,9 @@
           More Research
         </a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://github.com/imoneoi/openchat">
+          <!-- <a class="navbar-item" href="https://github.com/imoneoi/openchat">
             <b>OpenChat</b> <p style="font-size:18px; display: inline; margin-left: 5px;">🔥</p>
-          </a>
+          </a> -->
           <a class="navbar-item" href="https://zhichengg.github.io/stb.github.io/">
             <b>StableToolBench</b>
           </a>
@@ -246,7 +246,7 @@
       <!-- <div class="box m-5"> --> 
         <div class="content has-text-centered">
           <img src="static/images/Intro.jpg" alt="geometric reasoning" width="50%"/>
-          <p> <b><i>Figure 1:</i></b> The main categories of our EgoThink benchmark to comprehensively assess the capability of thinking from a first-person perspective. </p>
+          <p> <b><i>Figure 1:</i></b> The main categories of EgoThink to comprehensively assess the capability of thinking from a first-person perspective. </p>
         </div>
       <!-- </div> -->
     <!-- </div> -->
@@ -261,7 +261,12 @@
         <h2 class="title is-3">🔔News</h2>
         <div class="content has-text-justified">
           <p>
-            <b>[2023-11-27]: Our paper <a href="https://arxiv.org/abs/2311.15596">Can Vision-Language Models Think from a First-Person Perspective?</a> has been released.</b>
+            <b>[2024-09]: EgoThink is invited to be presented in <a href="https://zhidx.com/p/441426.html">ZhiDX</a>.</b>
+            <b>[2024-04]: EgoThink is invited to be presented in ByteDance.</b>
+            <b>[2024-04]: EgoThink will be presented as a Poster (Highlight👀) in CVPR 2024.</b>
+            <b>[2024-03]: EgoThink is presented in <a href="https://www.bilibili.com/video/BV13D42157gP/?spm_id_from=333.1387.search.video_card.click">AITIME</a>. </b>
+            <b>[2024-02]: EgoThink has been accepted by CVPR 2024.</b>
+            <b>[2023-11]: Our paper <a href="https://arxiv.org/abs/2311.15596">Can Vision-Language Models Think from a First-Person Perspective?</a> has been released.</b>
             <!-- <b>🔥[2023-11-27]: Our evaluation server for the test set is now available on <a href="https://eval.ai/web/challenges/challenge-page/2179/overview">EvalAI</a>. We welcome all submissions and look forward to your participation! 😆</b> -->
           </p>
       </div>      
@@ -394,16 +399,16 @@
 <!-------------------------------------------------------------------- RESULTS SECTION -------------------------------------------------------------------->
 <section class="section">
   <div class="container">
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered"> -->
       <!-- <div class="column is-full-width has-text-centered"> -->
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Vision-Language Models</h2>
-        <div class="content has-text-centered">
-          <img src="static/images/vlms.png" alt="algebraic reasoning" class="center">
-          <p><b><i>Table 3:</i></b> Statistics of compared API-based and open-source VLMs, where TTP and ToP indicate Total Trainable Parameters and Total Parameters, respectively. Moreover, EgoData and Video indicate that there are egocentric visual data and video data for training, respectively.</p>
-        </div>
-      </div>
-    </div>
+      <!-- <div class="column is-four-fifths"> -->
+        <!-- <h2 class="title is-3">Vision-Language Models</h2> -->
+        <!-- <div class="content has-text-centered"> -->
+          <!-- <img src="static/images/vlms.png" alt="algebraic reasoning" class="center"> -->
+          <!-- <p><b><i>Table 3:</i></b> Statistics of compared API-based and open-source VLMs, where TTP and ToP indicate Total Trainable Parameters and Total Parameters, respectively. Moreover, EgoData and Video indicate that there are egocentric visual data and video data for training, respectively.</p> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
 
     <div class="columns is-centered m-6">
       <div class="column is-full has-text-centered content">
@@ -732,61 +737,61 @@
 
     <div class="columns is-centered m-6">
       <div class="column is-full has-text-centered content">
-        <h2 class="title is-3">Examples</h2>
+        <h2 class="title is-3" id="examples">Examples</h2>
         <div id="results-carousel" class="carousel results-carousel">
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/case_1.png" alt="grade-lv" width="60%"/>
+          <div class="box">
+            <div class="content image-container">
+              <img src="static/images/case_1.png" alt="grade-lv"/>
             </div>
           </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/case_2.png" alt="grade-lv" width="60%"/>
+          <div class="box">
+            <div class="content image-container">
+              <img src="static/images/case_2.png" alt="grade-lv"/>
             </div>
           </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/case_3.png" alt="grade-lv" width="60%"/>
+          <div class="box">
+            <div class="content image-container">
+              <img src="static/images/case_3.png" alt="grade-lv"/>
             </div>
           </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/case_4.png" alt="grade-lv" width="60%"/>
+          <div class="box">
+            <div class="content image-container">
+              <img src="static/images/case_4.png" alt="grade-lv"/>
             </div>
           </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/case_5.png" alt="grade-lv" width="60%"/>
+          <div class="box">
+            <div class="content image-container">
+              <img src="static/images/case_5.png" alt="grade-lv"/>
             </div>
           </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/case_6.png" alt="grade-lv" width="60%"/>
+          <div class="box">
+            <div class="content image-container">
+              <img src="static/images/case_6.png" alt="grade-lv"/>
             </div>
           </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/case_7.png" alt="grade-lv" width="60%"/>
+          <div class="box">
+            <div class="content image-container">
+              <img src="static/images/case_7.png" alt="grade-lv"/>
             </div>
           </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/case_8.png" alt="grade-lv" width="60%"/>
+          <div class="box">
+            <div class="content image-container">
+              <img src="static/images/case_8.png" alt="grade-lv"/>
             </div>
           </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/case_9.png" alt="grade-lv" width="60%"/>
+          <div class="box">
+            <div class="content image-container">
+              <img src="static/images/case_9.png" alt="grade-lv"/>
             </div>
           </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/case_10.png" alt="grade-lv" width="60%"/>
+          <div class="box">
+            <div class="content image-container">
+              <img src="static/images/case_10.png" alt="grade-lv"/>
             </div>
           </div>
-          <div class="box m-5">
-            <div class="content has-text-centered">
-              <img src="static/images/case_11.png" alt="grade-lv" width="60%"/>
+          <div class="box">
+            <div class="content image-container">
+              <img src="static/images/case_11.png" alt="grade-lv"/>
             </div>
           </div>
         </div>

@@ -198,3 +198,13 @@ body {
   height: 100%;
   margin: 5px; 
 }
+
+.image-container {
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
