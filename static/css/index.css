@@ -118,16 +118,16 @@ body {
   align-items: center;
 }
 
-.image-container {
+/* .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 60%;
   height: auto;
-}
+} */
 
 .image-container img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   display: block;
 }
