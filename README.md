@@ -3,10 +3,40 @@
 
 [**🌐 Homepage**](https://adacheng.github.io/EgoThink/) | [**🤗 Dataset**](https://huggingface.co/datasets/EgoThink/EgoThink) | [**🤗 Paper**](https://huggingface.co/papers/2311.15596) | [**📖 arXiv**](https://arxiv.org/abs/2311.15596) | [**🏆 Leaderboard**](https://adacheng.github.io/EgoThink/#leaderboard)
 
+<p>
+  <img src="image-1.png" alt="intro" width="60%">
+</p>
+
 Accepted by <i>**CVPR 2024** <font color="red"><strong>Highlights</strong></font></i>
 </center>
 
-## Dataset
+## 🔔 News
+[2024-10]: Our related paper <a href="https://arxiv.org/abs/2410.11623">VidEgoThink: Assessing Egocentric Video Understanding Capabilities for Embodied AI</a> has been released.<br>
+[2024-09]: EgoThink is invited to be presented in <a href="https://zhidx.com/p/441426.html">ZhiDX</a>.<br>
+[2024-04]: EgoThink is invited to be presented in ByteDance.<br>
+[2024-04]: EgoThink will be presented as a Poster (Highlight👀) in CVPR 2024.<br>
+[2024-03]: EgoThink is presented in <a href="https://www.bilibili.com/video/BV13D42157gP/?spm_id_from=333.1387.search.video_card.click">AITIME</a>.<br>
+[2024-02]: EgoThink has been accepted by CVPR 2024.<br>
+[2023-11]: Our paper <a href="https://arxiv.org/abs/2311.15596">Can Vision-Language Models Think from a First-Person Perspective?</a> has been released.<br>
+
+## 💾 Dataset
+
+
+### Overview
+
+![Overview](image.png)
+<center>
+<i>Figure 2:</i> Categories with fine-grained dimensions and their corresponding examples of EgoThink benchmark.
+</center>
+
+### Download
+
+1. Clone our [GitHub repo](https://github.com/AdaCheng/EgoThink/tree/main/EgoThink).
+```sh
+git clone https://github.com/AdaCheng/EgoThink.git
+```
+
+2. Download in our [Hugging Face repo](https://huggingface.co/datasets/EgoThink/EgoThink). 
 
 ## Evaluation
 
