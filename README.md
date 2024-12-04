@@ -1,6 +1,10 @@
-# EgoThink: Evaluating First-Person Perspective Thinking Capability of Vision-Language Models
+<center>
+<h2>EgoThink: Evaluating First-Person Perspective Thinking Capability of Vision-Language Models</h2>
 
-[**🌐 Homepage**](https://adacheng.github.io/EgoThink/) | [**🤗 Dataset**](https://huggingface.co/datasets/EgoThink/EgoThink) | [**🤗 Paper**](https://huggingface.co/papers/2311.15596) | [**📖 arXiv**](https://arxiv.org/abs/2311.15596) | [**GitHub**](https://github.com/AdaCheng/EgoThink)
+[**🌐 Homepage**](https://adacheng.github.io/EgoThink/) | [**🤗 Dataset**](https://huggingface.co/datasets/EgoThink/EgoThink) | [**🤗 Paper**](https://huggingface.co/papers/2311.15596) | [**📖 arXiv**](https://arxiv.org/abs/2311.15596) | [**🏆 Leaderboard**](https://adacheng.github.io/EgoThink/#leaderboard)
+
+Accepted by <i>**CVPR 2024** <font color="red"><strong>Highlights</strong></font></i>
+</center>
 
 ## Dataset
 
