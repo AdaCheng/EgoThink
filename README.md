@@ -33,7 +33,7 @@
   <i>Figure 2:</i> Categories with fine-grained dimensions and their corresponding examples of EgoThink benchmark.
 </div>
 
-### Download
+### Download (Choose One of Two)
 
 1. Clone our [GitHub repo](https://github.com/AdaCheng/EgoThink/tree/main/EgoThink).
 ```sh
