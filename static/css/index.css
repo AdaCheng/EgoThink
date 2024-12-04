@@ -113,6 +113,23 @@ body {
 
 .results-carousel {
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* .results-carousel .item {
