@@ -16,15 +16,15 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
 
     # models
-    parser.add_argument("--model_name", type=str, default="BLIP2")
+    parser.add_argument("--model_name", type=str, default="blip2-7b")
     parser.add_argument("--device", type=str, default="0")
     parser.add_argument("--batch_size", type=int, default=1)
 
     # datasets
     # parser.add_argument("--dataset-names", type=str, default=None)
-    parser.add_argument('--annotation_path', type=str, required=True)
+    parser.add_argument('--annotation_path', type=str, default="/EgoThink/Activity/annotations.json")
     # result_path
-    parser.add_argument("--answer_path", type=str, default="./tiny_answers")
+    parser.add_argument("--answer_path", type=str, default="/answer/Activity")
     # parser.add_argument("--planning", action="store_true")
 
     args = parser.parse_args()

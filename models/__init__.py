@@ -37,7 +37,6 @@ def get_model(model_name, device=None):
     #     from .test_blip2 import TestBlip2
     #     return TestBlip2(device)
     # el
-
     if model_name == 'blip2-7b':
         from .test_blip2 import TestBlip2
         return TestBlip2(name='blip2_opt', model_type='pretrain_opt6.7b', config_path='/models/blip_configs/blip2_pretrain_opt6.7b.yaml', device=device)
@@ -102,23 +101,5 @@ def get_model(model_name, device=None):
     elif model_name == 'openflamingo':
         from .test_openflamingo import TestOpenFlamingo
         return TestOpenFlamingo(device)
-    elif model_name == 'eilev':
-        from .test_eilev import TestEILEV
-        return TestEILEV(model="eilev-blip2-flan-t5-xl", device=device)
-    elif model_name == 'video_llava':
-        from .test_videollava import TestVideoLlava
-        return TestVideoLlava(model="video_llava", device=device)
-    elif model_name == 'video_chat':
-        from .test_video_chat import TestVideoChat
-        return TestVideoChat(device=device)
-    elif model_name == 'Idefics2'.lower():
-        from .test_idefics2 import TestIdefics2
-        return TestIdefics2(device=device)
-    elif model_name == "qwen-vl-chat":
-        from .test_qwen_vl_chat import TestQwenVLChat
-        return TestQwenVLChat(device)
-    elif model_name == "qwen2_vl":
-        from .test_qwen2vl import TestQwen2VL
-        return TestQwen2VL(device)
     else:
         raise ValueError(f"Invalid model_name: {model_name}")
