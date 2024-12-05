@@ -49,8 +49,10 @@ cd EgoThink
 conda create --name egothink python=3.10
 conda activate egothink
 pip install -U pip
-```
 
+# Install requirements
+pip install -r requirements.txt
+```
 
 ## 📊 Evaluation
 
