@@ -45,6 +45,13 @@ cd EgoThink
 
 ## 🔧 Dependencies
 
+```sh
+conda create --name egothink python=3.10
+conda activate egothink
+pip install -U pip
+```
+
+
 ## 📊 Evaluation
 
 ### Add new model
