@@ -105,7 +105,7 @@ if __name__ == "__main__":
 
     # datasets
     parser.add_argument('--annotation_path', type=str, default="./EgoThink/Activity/annotations.json")
-    parser.add_argument("--answer_path", type=str, default="./answer/rm_critique")
+    parser.add_argument("--answer_path", type=str, default="./answer/Activity")
 
     args = parser.parse_args()
 

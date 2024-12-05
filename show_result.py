@@ -27,8 +27,7 @@ model_order = [
     'gpt-4o-frames',
     'qwen2_vl',
     'qwen-vl-chat',
-    'gpt-4o-text',
-    'gpt-4o-32-frames'
+    'gpt-4o',
 ]
 
 def display_result_single(args):

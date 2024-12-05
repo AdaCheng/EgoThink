@@ -194,13 +194,13 @@ def get_args():
     parser.add_argument(
         "--data-folder",
         type=str,
-        default="data",
+        default="/answer",
         help="The folder to store the data.",
     )
     parser.add_argument(
         "--bench-name",
         type=str,
-        default="mt_bench",
+        default="Activity",
         help="The name of the benchmark question set.",
     )
     parser.add_argument(
@@ -214,7 +214,7 @@ def get_args():
         default="judge_prompts.jsonl",
         help="The file of judge prompts.",
     )
-    parser.add_argument("--judge-model", type=str, default="gpt-4")
+    parser.add_argument("--judge-model", type=str, default="gpt-4o")
     parser.add_argument('--ref-model', type=str, default='ground_truth')
     parser.add_argument("--baseline-model", type=str, default="gpt-3.5-turbo")
     parser.add_argument(

@@ -71,10 +71,10 @@ pip install -U pip
 
 - API-based Model
 
-Please update the API-based models' keys and base_urls between the line 23 to line 33 of file [gpt_eval.py]().
+Please update the API-based models' keys and base_urls between the line 23 to line 33 of file [gpt_eval.py](https://github.com/AdaCheng/EgoThink/blob/main/gpt_eval.py#L23).
 ```sh
-# dataset: Activity, Object/existence, etc., currently does not support direct calls from hugging face
-# MODEL: GPT series models, such as gpt-4o-mini
+# dataset: Activity, Object/existence, etc.
+# MODEL: GPT series models, such as gpt-4o
 python gpt_eval.py \
     --model_name $MODEL \
     --annotation_path /${dataset}/annotations.json \
@@ -83,7 +83,7 @@ python gpt_eval.py \
 
 - Open-Source Model
 ```sh
-# dataset: Activity, Object/existence, etc., currently does not support direct calls from hugging face
+# dataset: Activity, Object/existence, etc.
 # MODEL: models defined in the models file
 # DEVICE: GPU id, 0/1/2..., currently only single card can run
 python eval.py \
@@ -99,11 +99,12 @@ python eval.py \
 Please update the API-based models' key and base between the line 463 to line 546 of file [common.py](https://github.com/AdaCheng/EgoThink/blob/main/common.py#L463).
 
 ```sh
-# dataset: Activity, Object/existence, etc.
+# data-folder: the folder name of answer.
+# bench-name: Activity, Object/existence, etc.
 # EVA_MODELS: a list of models to be evaluated (separated by spaces), for example "llava-13b-llama2 llava-1.5-13b llava-1.5-7b"
-# $EVA_JUDGE_MODEL: gpt-4 (default), gpt-3.5-turbo, claude-2, etc.
+# $EVA_JUDGE_MODEL: gpt-4o (default), gpt-3.5-turbo, claude-2, etc.
 python  gen_judgment.py \
-    --data-folder data_egothink \
+    --data-folder /answer \
     --bench-name $dataset \
     --mode single \
     --model-list $EVA_MODELS \
