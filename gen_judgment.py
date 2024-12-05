@@ -19,7 +19,6 @@ from common import (
     load_judge_prompts,
     check_data,
     play_a_match_pair,
-    play_a_match_temporal,
     play_a_match_single,
     get_model_list,
     Judge,
@@ -186,11 +185,8 @@ def make_judge_pairwise(judge_model, judge_prompts):
 
 def make_judge_single(judge_model, judge_prompts):
     judges = {}
-    # judges["default"] = Judge(judge_model, judge_prompts["single-v1"])
-    judges["vqa"] = Judge(judge_model, judge_prompts["single-math-v2"], ref_based=True)
-    judges["rm_feedback"] = Judge(judge_model, judge_prompts["single-rm-feedback-v1"], ref_based=True)
-    judges["hp_h2m"] = Judge(judge_model, judge_prompts["single-hp-h2m-v1"], ref_based=True)
-    judges["hp_m2l"] = Judge(judge_model, judge_prompts["single-hp-m2l-v1"], ref_based=True)
+    judges["default"] = Judge(judge_model, judge_prompts["single-v1"])
+    judges["math"] = Judge(judge_model, judge_prompts["single-math-v2"], ref_based=True)
     return judges
 
 def get_args():
@@ -277,35 +273,26 @@ if __name__ == "__main__":
     else:
         models = args.model_list
 
-    if args.judge_model == "tg":
+    if args.mode == "single":
         judges = make_judge_single(args.judge_model, judge_prompts)
-        play_a_match_func = play_a_match_temporal
+        play_a_match_func = play_a_match_single
         output_file = (
             f"{data_folder}/{args.bench_name}/model_judgment/{args.judge_model}_single.jsonl"
         )
         make_match_func = make_match_single
-        baseline_model = None 
+        baseline_model = None
     else:
-        if args.mode == "single":
-            judges = make_judge_single(args.judge_model, judge_prompts)
-            play_a_match_func = play_a_match_single
-            output_file = (
-                f"{data_folder}/{args.bench_name}/model_judgment/{args.judge_model}_single.jsonl"
-            )
-            make_match_func = make_match_single
+        judges = make_judge_pairwise(args.judge_model, judge_prompts)
+        play_a_match_func = play_a_match_pair
+        output_file = (
+            f"{data_folder}/{args.bench_name}/model_judgment/{args.judge_model}_pair.jsonl"
+        )
+        if args.mode == "pairwise-all":
+            make_match_func = make_match_all_pairs
             baseline_model = None
         else:
-            judges = make_judge_pairwise(args.judge_model, judge_prompts)
-            play_a_match_func = play_a_match_pair
-            output_file = (
-                f"{data_folder}/{args.bench_name}/model_judgment/{args.judge_model}_pair.jsonl"
-            )
-            if args.mode == "pairwise-all":
-                make_match_func = make_match_all_pairs
-                baseline_model = None
-            else:
-                make_match_func = make_match
-                baseline_model = args.baseline_model
+            make_match_func = make_match
+            baseline_model = args.baseline_model
 
     if os.path.exists(output_file):
         # action = input(f"File {output_file} exists. Overwrite? (y/n)")
@@ -325,27 +312,15 @@ if __name__ == "__main__":
     # matches += make_match_func(
     #     questions, models, model_answers, judges["default"], baseline_model
     # )
-    if args.bench_name in ["rm_feedback", "hp_h2m", "hp_m2l"]:
-        matches += make_match_func(
-            questions,
-            models,
-            model_answers,
-            judges[args.bench_name],
-            baseline_model,
-            ref_answers,
-            ref_model_name=args.ref_model
-        )
-    else:
-        matches += make_match_func(
-            questions,
-            models,
-            model_answers,
-            judges["vqa"],
-            baseline_model,
-            ref_answers,
-            ref_model_name=args.ref_model
-        )
-
+    matches += make_match_func(
+        questions,
+        models,
+        model_answers,
+        judges["math"],
+        baseline_model,
+        ref_answers,
+        ref_model_name=args.ref_model
+    )
 
     match_stat = {}
     match_stat["bench_name"] = args.bench_name
