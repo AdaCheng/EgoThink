@@ -54,7 +54,7 @@ pip install -U pip
 
 ## 📊 Evaluation
 
-### Add new model
+### Add New Open-Source Models
 
 > 🫰 <b>Thank you very much if you would like to contribute the code of the new model you have deployed!</b>
 
@@ -68,6 +68,20 @@ pip install -U pip
 ```
 
 ### Inference
+
+- API-based Model
+
+Please update the API-based models' keys and base_urls between the line 23 to line 33 of file [gpt_eval.py]().
+```sh
+# dataset: Activity, Object/existence, etc., currently does not support direct calls from hugging face
+# MODEL: GPT series models, such as gpt-4o-mini
+python gpt_eval.py \
+    --model_name $MODEL \
+    --annotation_path /${dataset}/annotations.json \
+    --answer_path /answer/${dataset} \
+```
+
+- Open-Source Model
 ```sh
 # dataset: Activity, Object/existence, etc., currently does not support direct calls from hugging face
 # MODEL: models defined in the models file
@@ -81,15 +95,13 @@ python eval.py \
 ```
 
 ### Evaluation
+
+Please update the API-based models' key and base between the line 463 to line 546 of file [common.py](https://github.com/AdaCheng/EgoThink/blob/main/common.py#L463).
+
 ```sh
 # dataset: Activity, Object/existence, etc.
 # EVA_MODELS: a list of models to be evaluated (separated by spaces), for example "llava-13b-llama2 llava-1.5-13b llava-1.5-7b"
 # $EVA_JUDGE_MODEL: gpt-4 (default), gpt-3.5-turbo, claude-2, etc.
-
-export OPENAI_API_KEY= 
-export ANTHROPIC_API_KEY=
-export OPENAI_API_BASE=
-
 python  gen_judgment.py \
     --data-folder data_egothink \
     --bench-name $dataset \

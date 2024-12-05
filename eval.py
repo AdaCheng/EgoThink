@@ -30,12 +30,6 @@ def parse_args():
     args = parser.parse_args()
     return args
 
-
-def eval_sample_dataset(dataset, dataset_name, max_sample_num=50, seed=0):
-    if max_sample_num == -1:
-        return dataset
-    return sample_dataset(dataset, dataset_name, max_sample_num, seed)
-
 def load_dataset(args):
     annotation_path = args.annotation_path
     with open(annotation_path, 'r') as f:
