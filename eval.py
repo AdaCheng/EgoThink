@@ -11,7 +11,6 @@ import os
 sys.path.append('./models')
 
 from models import get_model
-from sample_dataset import sample_dataset
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 from datasets import disable_caching
@@ -36,11 +35,6 @@ def parse_args():
     args = parser.parse_args()
     return args
 
-
-def eval_sample_dataset(dataset, dataset_name, max_sample_num=50, seed=0):
-    if max_sample_num == -1:
-        return dataset
-    return sample_dataset(dataset, dataset_name, max_sample_num, seed)
 
 def load_dataset(args):
     annotation_path = args.annotation_path

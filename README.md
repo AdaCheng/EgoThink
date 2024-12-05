@@ -38,6 +38,7 @@
 1. Clone our [GitHub Repo](https://github.com/AdaCheng/EgoThink/tree/main/EgoThink).
 ```sh
 git clone https://github.com/AdaCheng/EgoThink.git
+cd EgoThink
 ```
 
 2. Download in our [Hugging Face Repo](https://huggingface.co/datasets/EgoThink/EgoThink). 
@@ -107,7 +108,7 @@ python show_result.py \
 ## 🏆 Leaderboard
 
 ### Update
-Feel free to contribute to the performance of your model by adding it to our "RESULTS SECTION" (from line 398) in <a href="https://github.com/AdaCheng/EgoThink/blob/main/index.html">index.html</a>; we will review and merge it accordingly.
+> 👋 <b>Feel free to contribute to the performance of your model by adding it to our "RESULTS SECTION" (from line 398) in <a href="https://github.com/AdaCheng/EgoThink/blob/main/index.html">index.html</a>; we will review and merge it accordingly.</b>
 
 ```html
 <tr style="background-color: #f8fffe;">
