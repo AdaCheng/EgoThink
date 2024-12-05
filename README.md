@@ -131,6 +131,8 @@ python show_result.py \
 
 ### Overview
 
+The detailed Table can be found in [Here](https://adacheng.github.io/EgoThink/#leaderboard).
+
 <div align="center">
   <img src="assets/leaderboard.png" alt="overview" width="100%">
 
