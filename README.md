@@ -8,7 +8,7 @@
   <img src="assets/image-1.png" alt="intro" width="60%">
 </p>
 
-<i>Figure 1:</i> The main categories of EgoThink to comprehensively assess the capability of thinking from a first-person perspective.
+<b><i>Figure 1:</i></b> The main categories of EgoThink to comprehensively assess the capability of thinking from a first-person perspective.
 </div>
 
 
@@ -30,19 +30,21 @@
 <div align="center">
   <img src="assets/image.png" alt="overview" width="100%">
 
-  <i>Figure 2:</i> Categories with fine-grained dimensions and their corresponding examples of EgoThink benchmark.
+  <b><i>Figure 2:</i></b> Categories with fine-grained dimensions and their corresponding examples of EgoThink benchmark.
 </div>
 
 ### Download (Choose One of Two)
 
-1. Clone our [GitHub repo](https://github.com/AdaCheng/EgoThink/tree/main/EgoThink).
+1. Clone our [GitHub Repo](https://github.com/AdaCheng/EgoThink/tree/main/EgoThink).
 ```sh
 git clone https://github.com/AdaCheng/EgoThink.git
 ```
 
-2. Download in our [Hugging Face repo](https://huggingface.co/datasets/EgoThink/EgoThink). 
+2. Download in our [Hugging Face Repo](https://huggingface.co/datasets/EgoThink/EgoThink). 
 
-## Evaluation
+## 🔧 Dependencies
+
+## 📊 Evaluation
 
 ### Add new model
 
@@ -100,7 +102,38 @@ python show_result.py \
     --mode single
 ```
 
-### 
+## 🏆 Leaderboard
+
+### Update
+Feel free to contribute to the performance of your model by adding it to our "RESULTS SECTION" (from line 398) in <a href="https://github.com/AdaCheng/EgoThink/blob/main/index.html">index.html</a>; we will review and merge it accordingly.
+
+```html
+<tr style="background-color: #f8fffe;">
+    <td style="text-align: left;"><b>GPT-4V(ision)</b></td>
+    <td><b>65.5</b></td>
+    <td>62.0</td>
+    <td><b>82.0</b></td>
+    <td><b>58.0</b></td>
+    <td><b>59.5</b></td>
+    <td style="text-decoration: underline;">86.0</td>
+    <td style="text-decoration: underline;">62.0</td>
+    <td><b>42.0</b></td>
+    <td>48.0</td>
+    <td><b>83.0</b></td>
+    <td><b>55.0</b></td>
+    <td><b>64.0</b></td>
+    <td><b>84.0</b></td>
+</tr> 
+```
+
+### Overview
+
+<div align="center">
+  <img src="assets/leaderboard.png" alt="overview" width="100%">
+
+  <b><i>Table 4:</i></b> Combined single-answer grading scores on zero-shot setups for various dimensions. The <b>bold</b> indicates the best performance while the <u>underline</u> indicates the second-best performance. Exist, Attr, Afford, Loc, Spatial, Count, Compar, Situated, Nav and Assist represent existence, attribute, affordance, location, spatial relationship, counting, comparison, situated reasoning, navigation, and assistance.
+</div>
+
 
 ## Contact
 - Sijie Cheng: csj23@mails.tsinghua.edu.cn
@@ -108,13 +141,6 @@ python show_result.py \
 ## Citation
 
 ```bibtex
-@article{cheng2024videgothink,
-  title={VidEgoThink: Assessing Egocentric Video Understanding Capabilities for Embodied AI},
-  author={Cheng, Sijie and Fang, Kechen and Yu, Yangyang and Zhou, Sicheng and Li, Bohao and Tian, Ye and Li, Tingguang and Han, Lei and Liu, Yang},
-  journal={arXiv preprint arXiv:2410.11623},
-  year={2024}
-}
-
 @InProceedings{Cheng_2024_CVPR,
     author    = {Cheng, Sijie and Guo, Zhicheng and Wu, Jingwen and Fang, Kechen and Li, Peng and Liu, Huaping and Liu, Yang},
     title     = {EgoThink: Evaluating First-Person Perspective Thinking Capability of Vision-Language Models},
