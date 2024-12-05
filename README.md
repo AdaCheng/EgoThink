@@ -48,6 +48,8 @@ git clone https://github.com/AdaCheng/EgoThink.git
 
 ### Add new model
 
+> 🫰 <b>Thank you very much if you would like to contribute the code of the new model you have deployed!</b>
+
 1. create `test_{new_model}.py` in `/models`.
 2. Add the new model in `get_model()` in `/models/__init__.py`.
 ```sh
