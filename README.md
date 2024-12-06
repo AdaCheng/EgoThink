@@ -44,6 +44,7 @@ cd data
 2. Download in our [Hugging Face Repo](https://huggingface.co/datasets/EgoThink/EgoThink). 
 
 ## 🔧 Dependencies
+> Here we provide the basic environment, you need to additionally install requirements for your evaluated open-source models.
 
 ```sh
 conda create --name egothink python=3.10
@@ -62,11 +63,11 @@ pip install -r requirements.txt
 
 1. create `test_{new_model}.py` in `/models`.
 2. Add the new model in `get_model()` in `/models/__init__.py`.
-```sh
+```python
 # BLIP2-7B
- if model_name == 'blip2-7b':
-        from .test_blip2 import TestBlip2
-        return TestBlip2(name='blip2_opt', model_type='pretrain_opt6.7b', config_path='/models/blip_configs/blip2_pretrain_opt6.7b.yaml', device=device)
+if model_name == 'blip2-7b':
+  from .test_blip2 import TestBlip2
+  return TestBlip2(name='blip2_opt', model_type='pretrain_opt6.7b', config_path='/models/blip_configs/blip2_pretrain_opt6.7b.yaml', device=device)
 ```
 
 ### Inference
