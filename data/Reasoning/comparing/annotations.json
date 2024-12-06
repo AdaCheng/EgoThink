@@ -1,0 +1,402 @@
+[
+    {
+        "question": "Which one is closer to me? The sink or the rubbish can on the ground?",
+        "answer": "The sink.",
+        "image_path": [
+            "1.jpg"
+        ],
+        "source_dataset": "ego4d"
+    },
+    {
+        "question": "What pot is closer to me? The pot containing water or the pot covered with lid?",
+        "answer": "The pot containing water.",
+        "image_path": [
+            "2.jpg"
+        ],
+        "source_dataset": "ego4d"
+    },
+    {
+        "question": "Which one is closer to me, the glass jug or the porcelain plate on the shelf?",
+        "answer": "The porcelain plate.",
+        "image_path": [
+            "3.jpg"
+        ],
+        "source_dataset": "ego4d"
+    },
+    {
+        "question": "Does the cabinet closest to my right hand have less shelves or the cabinet far away from my right hand?",
+        "answer": "The cabinet far away from my right hand.",
+        "image_path": [
+            "4.jpg"
+        ],
+        "source_dataset": "ego4d"
+    },
+    {
+        "question": "Which table has less books? The table in front of me or the one on my right front?",
+        "answer": "The table in front of me.",
+        "image_path": [
+            "5.jpg"
+        ],
+        "source_dataset": "ego4d"
+    },
+    {
+        "question": "Are the cards in my hand the same shape as the cards in my opponent's hand?",
+        "answer": "yes.",
+        "image_path": [
+            "6.jpg"
+        ],
+        "source_dataset": "ego4d"
+    },
+    {
+        "question": "Does the leave that I am making have the same shape with other leaves?",
+        "answer": "No.",
+        "image_path": [
+            "7.jpg"
+        ],
+        "source_dataset": "ego4d"
+    },
+    {
+        "question": "Which one is the largest, the pot in my hand or the pot contain food or the white cup?",
+        "answer": "The pot in my hand.",
+        "image_path": [
+            "8.jpg"
+        ],
+        "source_dataset": "ego4d"
+    },
+    {
+        "question": "Are the number of phones on the table more, less, or the same as the number of phones in my hand?",
+        "answer": "The same as the number of phones in my hand.",
+        "image_path": [
+            "9.jpg"
+        ],
+        "source_dataset": "ego4d"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "10.jpg"
+        ],
+        "question": "Does the thing I am touching has the same color with my glove?",
+        "answer": "No"
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "11.jpg"
+        ],
+        "question": "Which one is larger? the green thing in front of me or the blue thing on my right front side?",
+        "answer": "The blue thing."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "12.jpg"
+        ],
+        "question": "Which pot is lighter in color? The pot I'm holding or the pot to my right?",
+        "answer": "The pot I'm holding."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "13.jpg"
+        ],
+        "question": "Is the teacup I hold in my left hand the same shape as the teacup I hold in my right hand?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "14.jpg"
+        ],
+        "question": "What on the stove is made of the same material as the thing I'm holding in my hand?",
+        "answer": "The pot."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "15.jpg"
+        ],
+        "question": "What is the difference between the brick I am touching and the brick next to it?",
+        "answer": "Color."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "16.jpg"
+        ],
+        "question": "How many bowls have the same shape as the one in my hand?",
+        "answer": "One."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "17.jpg"
+        ],
+        "question": "Are the item I'm holding in my left hand the same type as the item I'm holding in my right hand?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "18.jpg"
+        ],
+        "question": "Excluding the slippers I'm currently wearing, comparing slippers that are the same color as the ones I'm wearing and that of a different color. Are they equal in number or different in number?",
+        "answer": "Equal in number."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "19.jpg"
+        ],
+        "question": "Which one is closer to me, the book or the academic calendar?",
+        "answer": "The book."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "20.jpg"
+        ],
+        "question": "Which one is farther away from me, the white pillow or the black pillow?",
+        "answer": "The black pillow."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "21.jpg"
+        ],
+        "question": "What is the nearest fruit to me?",
+        "answer": "Banana."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "22.jpg"
+        ],
+        "question": "What color is the cup furthest from me?",
+        "answer": "Green."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "23.jpg"
+        ],
+        "question": "Which piece of bread is in my hand, the left one or the right one?",
+        "answer": "The left one."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "24.jpg"
+        ],
+        "question": "Are there more cards in my right hand or on the table?",
+        "answer": "On the table."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "25.jpg"
+        ],
+        "question": "Which pot am I using, the left one or the right one?",
+        "answer": "The left one."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "26.jpg"
+        ],
+        "question": "Which car is farther away from me, the yellow one or the green one?",
+        "answer": "The yellow one."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "27.jpg"
+        ],
+        "question": "Which one is closer to me, the coffee or the blue candle?",
+        "answer": "The coffee."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "28.jpg"
+        ],
+        "question": "Which rag is closer to me, the white one or the blue one?",
+        "answer": "The white one."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "29.jpg"
+        ],
+        "question": "Is the thread in my hand thicker, or is the one next to it thicker?",
+        "answer": "The thread in my hand."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "30.jpg"
+        ],
+        "question": "Is the thing holding in my left hand the same color as the thing holding in my right hand?",
+        "answer": "No."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "31.jpg"
+        ],
+        "question": "Are the number of bracelets on my left wrist and right wrist the same or different?",
+        "answer": "Same."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "32.jpg"
+        ],
+        "question": "Which color of cards do I have the most in my hand?",
+        "answer": "Green."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "33.jpg"
+        ],
+        "question": "Is the thing I'm holding the same color as the bricks or different?",
+        "answer": "Different."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "34.jpg"
+        ],
+        "question": "Are there more bowls on my left or on my right?",
+        "answer": "There are more bowls on my right."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "35.jpg"
+        ],
+        "question": "Are there less flowerpots on my left or on my right?",
+        "answer": "On my left."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "36.jpg"
+        ],
+        "question": "Are there more pots in front of me or to my left?",
+        "answer": "To my left."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "37.jpg"
+        ],
+        "question": "Are the flowers in the bag on my left the same shape as the flowers in my hand?",
+        "answer": "No."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "38.jpg"
+        ],
+        "question": "Is the bowl holding in my left hand made of the same material as the bowl holding in my right hand?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "39.jpg"
+        ],
+        "question": "Am I holding the same type of items in both my left and right hands, or are they different?",
+        "answer": "Same type of items."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "40.jpg"
+        ],
+        "question": "Is the glove on my left hand the same color as the glove on my right hand?",
+        "answer": "Yes."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "41.jpg"
+        ],
+        "question": "Are there more glass bottles on my left or on my right?",
+        "answer": "On my right."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "42.jpg"
+        ],
+        "question": "Are there less mats holding in my hands or on the ground?",
+        "answer": "There are less mats holding in my hands."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "43.jpg"
+        ],
+        "question": "Are there less rocks on my left or on my right?",
+        "answer": "There are less rocks on my left."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "44.jpg"
+        ],
+        "question": "Are the cup in my hand different from the cup on my left?",
+        "answer": "No."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "45.jpg"
+        ],
+        "question": "Which plank is the longest, the plank in my hands, the plank on my right or the red plank on my left?",
+        "answer": "The plank in my hands."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "46.jpg"
+        ],
+        "question": "Which one closest to me, the pen, the remote control or the laptop?",
+        "answer": "The pen."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "47.jpg"
+        ],
+        "question": "Does the bowl in my hand have more rice, or the larger bowl in front of me have more?",
+        "answer": "The larger bowl."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "48.jpg"
+        ],
+        "question": "Does the planks holding in my hands the same size the planks on my right?",
+        "answer": "No."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "49.jpg"
+        ],
+        "question": "Are there less balls in my hands or in the bags in front of me?",
+        "answer": "In my hands."
+    },
+    {
+        "source_dataset": "ego4d",
+        "image_path": [
+            "50.jpg"
+        ],
+        "question": "Are there more fallen leaves on my left or on my right?",
+        "answer": "On my left."
+    }
+]
