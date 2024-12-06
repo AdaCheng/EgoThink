@@ -8,7 +8,9 @@ from openai import AzureOpenAI
 import openai
 import requests
 import base64
-    
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 def encode_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
@@ -97,6 +99,34 @@ def get_generation_args(dataset_name):
             'planning': False
         }
 
+def generate_item(args, item):  
+    q_id = item["q_id"]
+    question = item["question"]
+    images = item["images"]
+    answer = item["answer"]
+
+    prompt = "Please let your answer be as short as possible. Question: {question} Short answer:".format(question=question)
+
+    max_retries = 5  # 最大重试次数
+    retry_delay = 2  # 重试之间的延时，单位为秒
+    attempt = 0  # 当前尝试次数
+    while True:
+        try:
+            output = llm_api.request_vision(images, prompt)
+            if "Short Answer: " in output:
+                output = output.split("Short Answer: ")[1]
+            print(output)
+            break
+        except Exception as e:
+            # print(e)
+            if attempt >= max_retries:
+                print(e)
+                output = "error."
+                break
+            time.sleep(retry_delay)
+            attempt += 1
+    return output, question, answer, q_id
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run GPT Inference on a dataset")
 
@@ -112,27 +142,25 @@ if __name__ == "__main__":
     llm_api = LLM_API('gpt-4o')
 
     dataset = load_dataset(args)
+
+    for i, item in enumerate(dataset):
+        item["q_id"] = i + 1
     model_answers = []
     ref_answers = []
     question_files = []
-    q_id = 0
-    for item in tqdm(dataset, desc=f"Running {args.model_name} on benchmark {args.annotation_path}"):
-        q_id += 1
-        question = item["question"]
-        images = item["images"]
-        answer = item["answer"]
 
-        prompt = "Please let your answer be as short as possible. Question: {question} Short answer:".format(question=question)
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        future_to_item = {executor.submit(generate_item, args, item): item for item in dataset}
 
+    # 等待每个任务完成并处理结果
+    for future in tqdm(as_completed(future_to_item),  total=len(future_to_item), desc=f"Running {args.model_name} on task {args.annotation_path}"):
+        item = future_to_item[future]
         try:
-            output = llm_api.request_vision(images, prompt)
+            output, question, answer, q_id  = future.result()
+            print(question)
         except Exception as e:
-            print(e)
-            output = "error."
-        if "Short Answer: " in output:
-            output = output.split("Short Answer: ")[1]
-        print(output)
-        
+            print(f"处理项目 {item} 时发生错误: {e}")
+
         model_answers.append({
             "question_id" : q_id,
             "model_id" : args.model_name,
@@ -147,7 +175,7 @@ if __name__ == "__main__":
             'question_id': q_id,
             'turns': [question]
         })
-        
+    
     
     result_folder = args.answer_path
     if not os.path.exists(result_folder):

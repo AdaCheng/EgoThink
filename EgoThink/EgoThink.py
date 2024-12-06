@@ -25,11 +25,13 @@ import datasets
 
 # Find for instance the citation on arxiv or on the dataset repo/website
 _CITATION = """\
-@article{cheng2023can,
-  title={Can Vision-Language Models Think from a First-Person Perspective?},
-  author={Cheng, Sijie and Guo, Zhicheng and Wu, Jingwen and Fang, Kechen and Li, Peng and Liu, Huaping and Liu, Yang},
-  journal={arXiv preprint arXiv:2311.15596},
-  year={2023}
+@InProceedings{Cheng_2024_CVPR,
+    author    = {Cheng, Sijie and Guo, Zhicheng and Wu, Jingwen and Fang, Kechen and Li, Peng and Liu, Huaping and Liu, Yang},
+    title     = {EgoThink: Evaluating First-Person Perspective Thinking Capability of Vision-Language Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {14291-14302}
 }
 """
 
