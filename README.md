@@ -5,7 +5,7 @@
 [**🌐 Homepage**](https://adacheng.github.io/EgoThink/) | [**🤗 Dataset**](https://huggingface.co/datasets/EgoThink/EgoThink) | [**🤗 Paper**](https://huggingface.co/papers/2311.15596) | [**📖 arXiv**](https://arxiv.org/abs/2311.15596) | [**🏆 Leaderboard**](https://adacheng.github.io/EgoThink/#leaderboard)
 
 <p align="center">
-  <img src="assets/image-1.png" alt="intro" width="60%">
+  <img src="./static/images/intro.png" alt="intro" width="60%">
 </p>
 
 <b><i>Figure 1:</i></b> The main categories of EgoThink to comprehensively assess the capability of thinking from a first-person perspective.
@@ -28,7 +28,7 @@
 ### Overview
 
 <div align="center">
-  <img src="assets/image.png" alt="overview" width="100%">
+  <img src="./static/images/benchmark.jpg" alt="overview" width="100%">
 
   <b><i>Figure 2:</i></b> Categories with fine-grained dimensions and their corresponding examples of EgoThink benchmark.
 </div>
@@ -157,7 +157,7 @@ python show_result.py \
 The detailed Table can be found in [Here](https://adacheng.github.io/EgoThink/#leaderboard).
 
 <div align="center">
-  <img src="assets/leaderboard.png" alt="overview" width="100%">
+  <img src="./static/images/leaderboard.png" alt="overview" width="100%">
 
   <b><i>Table 1:</i></b> Combined single-answer grading scores on zero-shot setups for various dimensions. The <b>bold</b> indicates the best performance while the <u>underline</u> indicates the second-best performance. Exist, Attr, Afford, Loc, Spatial, Count, Compar, Situated, Nav and Assist represent existence, attribute, affordance, location, spatial relationship, counting, comparison, situated reasoning, navigation, and assistance.
 </div>
