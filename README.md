@@ -35,10 +35,10 @@
 
 ### Download (Choose One of Two)
 
-1. Clone our [GitHub Repo](https://github.com/AdaCheng/EgoThink/tree/main/EgoThink).
+1. Clone our [GitHub Repo](https://github.com/AdaCheng/EgoThink/tree/main/data).
 ```sh
 git clone https://github.com/AdaCheng/EgoThink.git
-cd EgoThink
+cd data
 ```
 
 2. Download in our [Hugging Face Repo](https://huggingface.co/datasets/EgoThink/EgoThink). 
