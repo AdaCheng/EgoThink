@@ -179,6 +179,17 @@ The detailed Table can be found in [Here](https://adacheng.github.io/EgoThink/#l
 }
 ```
 
+> If you are intested in our EgoThink, we strongly recommend you to read our recent related work, <b>[VidEgoThink](https://github.com/AdaCheng/VidEgoThink).</b>🥰
+
+```bibtex
+@article{cheng2024videgothink,
+title={VidEgoThink: Assessing Egocentric Video Understanding Capabilities for Embodied AI},
+author={Cheng, Sijie and Fang, Kechen and Yu, Yangyang and Zhou, Sicheng and Li, Bohao and Tian, Ye and Li, Tingguang and Han, Lei and Liu, Yang},
+journal={arXiv preprint arXiv:2410.11623},
+year={2024}
+}
+```
+
 ## Acknowledge
 Thanks to Xiaolong Wang, Yangyang Yu, Zixin Sun, and Zhaoyang Li for their contributions to data collection and construction.
 We appreciate Zeyuan Yang, Szymon Tworkowski, Guan Wang, and Zonghan Yang for their support of API resources; Xinghang Li for his valuable discussion; Siyu Wang for her code base on the annotation system.
